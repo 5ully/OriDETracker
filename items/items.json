@@ -101,67 +101,67 @@
         "name": "Sunken Glades",
         "type": "toggle",
         "img": "images/items/Teleporter_map_icon.png",
-        "codes": "glades"
+        "codes": "gladesTP"
     },
     {
         "name": "Hollow Grove",
         "type": "toggle",
         "img": "images/items/Teleporter_map_icon.png",
-        "codes": "hollow"
+        "codes": "hollowTP"
     },
     {
         "name": "Thornefelt Swamp",
         "type": "toggle",
         "img": "images/items/Teleporter_map_icon.png",
-        "codes": "swamp"
+        "codes": "swampTP"
     },
     {
         "name": "Moon Grotto",
         "type": "toggle",
         "img": "images/items/Teleporter_map_icon.png",
-        "codes": "grotto"
+        "codes": "grottoTP"
     },
     {
         "name": "Ginso Tree",
         "type": "toggle",
         "img": "images/items/Teleporter_map_icon.png",
-        "codes": "ginso"
+        "codes": "ginsoTP"
     },
     {
         "name": "Valley of the Wind",
         "type": "toggle",
         "img": "images/items/Teleporter_map_icon.png",
-        "codes": "valley"
+        "codes": "valleyTP"
     },
     {
         "name": "Forlorn Ruins",
         "type": "toggle",
         "img": "images/items/Teleporter_map_icon.png",
-        "codes": "ruins"
+        "codes": "ruinsTP"
     },
     {
         "name": "Sorrow Pass",
         "type": "toggle",
         "img": "images/items/Teleporter_map_icon.png",
-        "codes": "sorrow"
+        "codes": "sorrowTP"
     },
     {
         "name": "Mount Horu",
         "type": "toggle",
         "img": "images/items/Teleporter_map_icon.png",
-        "codes": "horu"
+        "codes": "horuTP"
     },
     {
         "name": "Black Root Burrows",
         "type": "toggle",
         "img": "images/items/Teleporter_map_icon.png",
-        "codes": "burrows"
+        "codes": "burrowsTP"
     },
     {
         "name": "Lost Grove",
         "type": "toggle",
         "img": "images/items/Teleporter_map_icon.png",
-        "codes": "grove"
+        "codes": "groveTP"
     },
 
     {

@@ -32,10 +32,10 @@
                     "type": "tabbed",
                     "tabs": [
                         {
-                            "title": "Full Map",
+                            "title": "Spirit Wells",
                             "content": {
                                 "type": "map",
-                                "maps": ["fullmap"]
+                                "maps": ["Spirit Wells"]
                             }
                         },
                         {
@@ -114,15 +114,7 @@
                                 "type": "map",
                                 "maps": ["Black Root Burrows"]
                             }
-                        },
-                        {
-                            "title": "Lost Grove",
-                            "content": {
-                                "type": "map",
-                                "maps": ["Lost Grove"]
-                            }
                         }
-
                     ]
                 }   
             ]
