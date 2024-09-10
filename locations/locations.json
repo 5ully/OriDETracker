@@ -1,0 +1,81 @@
+[
+    {
+        "name": "Sunken Glades",
+        "children": [
+            {
+                "name": "Sunken Glades Runaway",
+                "access_rules": [  
+                    "casual , free"                  
+                ],
+                "sections": [
+                    {
+                        "name": "First Pickup",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "FirstEnergyCell",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "FronkeyFight",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "GladesKeystone1",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "GladesKeystone2",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map1",
+                        "x": 200,
+                        "y": 200
+                    },
+                    {
+                        "map": "map1",
+                        "x": 300,
+                        "y": 300
+                    },
+                    {
+                        "map": "map1",
+                        "x": 400,
+                        "y": 400
+                    },
+                    {
+                        "map": "map1",
+                        "x": 500,
+                        "y": 500
+                    },
+                    {
+                        "map": "map1",
+                        "x": 600,
+                        "y": 600
+                    }
+                ]
+            },
+            {
+                "name": "Example Location 2",
+                "access_rules": [
+                    "progressive_toggle_2, $has_more_then_n_consumable|4"                   
+                ],
+                "sections": [
+                    {
+                        "name": "Example Section 1",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map1",
+                        "x": 1500,
+                        "y": 400
+                    }
+                ]
+            }            
+        ]
+    }
+]

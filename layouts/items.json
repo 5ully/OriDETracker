@@ -1,0 +1,23 @@
+{
+    "shared_item_grid": {
+        "type": "array",
+        "orientation": "horizontal",
+        "content": [
+            {
+                "type": "itemgrid",
+                "h_alignment": "left",
+                "item_margin": "1,2",
+                "item_size": 40,
+                "rows": [
+                    ["spirit_flame", "wall_jump", "charge_flame", "double_jump", "bash"],
+                    ["stomp", "glide", "climb", "charge_jump", "dash"],
+                    ["water_vein", "clean_water", "gumon_seal", "wind", "sunstone"],
+                    ["hollow", "grove", "swamp", "grotto", "ginso"],
+                    ["valley", "ruins", "sorrow", "horu", "burrows"],
+                    ["wall_jump_tree", "charge_flame_tree", "double_jump_tree", "bash_tree", "stomp_tree"],
+                    ["climb_tree", "charge_jump_tree", "granade_tree", "dash_tree"]
+                ]
+            }
+        ]
+    }
+}

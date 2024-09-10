@@ -1,0 +1,239 @@
+[
+    {
+        "name": "Spirit Flame",
+        "type": "toggle",
+        "img": "images/items/InventorySpiritFlameIcon.png",
+        "codes": "spirit_flame"
+    },
+    {
+        "name": "Wall Jump",
+		"type": "toggle",	
+		"img":"images/items/InventoryWallJumpIcon.png",
+		"codes": "wall_jump"
+    },
+    {
+        "name": "Charge Flame",
+		"type": "toggle",
+		"img": "images/items/InventoryChargeJumpIcon.png",
+		"codes": "charge_flame"
+    },
+    {
+        "name": "Double Jump",
+        "type": "toggle",
+        "img": "images/items/InventoryDoubleJumpIcon.png",
+        "codes": "double_jump"
+    },
+    {
+        "name": "Bash",
+        "type": "toggle",    
+        "img": "images/items/InventoryBashIcon.png",
+        "codes": "bash"
+    },
+    {
+        "name": "Stomp",
+        "type": "toggle", 
+        "img": "images/items/InventoryStompIcon.png",
+        "codes": "stomp"
+    },
+    {
+        "name": "Kuro's Feather",
+        "type": "toggle",
+        "img": "images/items/InventoryGlideIcon.png",
+        "codes": "glide"
+    },
+    {
+        "name": "Climb",
+        "type": "toggle",
+        
+        "img": "images/items/InventoryClimbIcon.png",
+        "codes": "climb"
+    },
+    {
+        "name": "Charge Jump",
+        "type": "toggle",
+        "img": "images/items/InventoryChargeJumpIcon.png",
+        "codes": "charge_jump"
+    },
+    {
+        "name": "Dash",
+        "type": "toggle",
+        "img": "images/items/InventoryDashIcon.png",
+        "codes": "dash"
+    },
+    {
+        "name": "Light Burst",
+        "type": "toggle",
+        "img": "images/items/InventoryGranadeIcon.png",
+        "codes": "light_burst"
+    },
+
+    {
+        "name": "Water Vein",
+        "type": "toggle",
+        "img": "images/items/GravityElementPlaceholderA.png",
+        "codes": "water_vein"
+    },
+    {
+        "name": "Clean Water",
+        "type": "toggle",
+        "img": "images/items/CleanWater.png",
+        "codes": "clean_water"
+    },
+    {
+        "name": "Gumon Seal",
+        "type": "toggle",
+        "img": "images/items/GumonSealForlornRuinsEntranceDoorShard.png",
+        "codes": "gumon_seal"
+    },
+    {
+        "name": "Wind Restored",
+        "type": "toggle",
+        "img": "images/items/WindRestored.png",
+        "codes": "wind"
+    },
+    {
+        "name": "Sunstone",
+        "type": "toggle",
+        "img": "images/items/SunstoneA.png",
+        "codes": "sunstone"
+    },
+    {
+        "name": "Sunken Glades",
+        "type": "toggle",
+        "img": "images/items/Teleporter_map_icon.png",
+        "codes": "glades"
+    },
+    {
+        "name": "Hollow Grove",
+        "type": "toggle",
+        "img": "images/items/Teleporter_map_icon.png",
+        "codes": "hollow"
+    },
+    {
+        "name": "Thornefelt Swamp",
+        "type": "toggle",
+        "img": "images/items/Teleporter_map_icon.png",
+        "codes": "swamp"
+    },
+    {
+        "name": "Moon Grotto",
+        "type": "toggle",
+        "img": "images/items/Teleporter_map_icon.png",
+        "codes": "grotto"
+    },
+    {
+        "name": "Ginso Tree",
+        "type": "toggle",
+        "img": "images/items/Teleporter_map_icon.png",
+        "codes": "ginso"
+    },
+    {
+        "name": "Valley of the Wind",
+        "type": "toggle",
+        "img": "images/items/Teleporter_map_icon.png",
+        "codes": "valley"
+    },
+    {
+        "name": "Forlorn Ruins",
+        "type": "toggle",
+        "img": "images/items/Teleporter_map_icon.png",
+        "codes": "ruins"
+    },
+    {
+        "name": "Sorrow Pass",
+        "type": "toggle",
+        "img": "images/items/Teleporter_map_icon.png",
+        "codes": "sorrow"
+    },
+    {
+        "name": "Mount Horu",
+        "type": "toggle",
+        "img": "images/items/Teleporter_map_icon.png",
+        "codes": "horu"
+    },
+    {
+        "name": "Black Root Burrows",
+        "type": "toggle",
+        "img": "images/items/Teleporter_map_icon.png",
+        "codes": "burrows"
+    },
+    {
+        "name": "Lost Grove",
+        "type": "toggle",
+        "img": "images/items/Teleporter_map_icon.png",
+        "codes": "grove"
+    },
+
+    {
+        "name": "Bash Tree",
+        "type": "toggle",
+        "img": "images/items/Ancestor_Tree_map_icon.png",
+        "codes": "bash_tree"
+    },
+    {
+        "name": "Charge Flame Tree",
+        "type": "toggle",
+        "img": "images/items/Ancestor_Tree_map_icon.png",
+        "codes": "charge_flame_tree"
+    },
+    {
+        "name": "Charge Jump Tree",
+        "type": "toggle",
+        "img": "images/items/Ancestor_Tree_map_icon.png",
+        "codes": "charge_jump_tree"
+    },
+    {
+        "name": "Climb Tree",
+        "type": "toggle",
+        "img": "images/items/Ancestor_Tree_map_icon.png",
+        "codes": "climb_tree"
+    },
+    {
+        "name": "Dash Tree",
+        "type": "toggle",
+        "img": "images/items/Ancestor_Tree_map_icon.png",
+        "codes": "dash_tree"
+    },
+    {
+        "name": "Double Jump Tree",
+        "type": "toggle",
+        "img": "images/items/Ancestor_Tree_map_icon.png",
+        "codes": "double_jump_tree"
+    },
+    {
+        "name": "Wall Jump Tree",
+        "type": "toggle",
+        "img": "images/items/Ancestor_Tree_map_icon.png",
+        "codes": "wall_jump_tree"
+    },
+    {
+        "name": "Stomp Tree",
+        "type": "toggle", 
+        "img": "images/items/Ancestor_Tree_map_icon.png",
+        "codes": "stomp_tree"
+    },
+    {
+        "name": "Light Burst Tree",
+        "type": "toggle",
+        "img": "images/items/Ancestor_Tree_map_icon.png",
+        "codes": "granade_tree"
+    },
+    {
+        "name": "Life Cell",
+        "type": "consumable",
+        "img": "images/items/LifeCellPickup.png",
+        "codes": "lifeCell"
+    },
+    {
+        "name": "Energy Cell",
+        "type": "toggle",
+        "img": "images/items/EnergyCell.png",
+        "codes": "energyCell"
+    },
+    {
+        "name": "Map Stone",
+        "type": "consumable",
+        "img": "images/items/MapStonePickup.png",
+        "codes": "mapStone"
+    }
+]   

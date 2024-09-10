@@ -1,0 +1,80 @@
+[
+    {
+        "name": "Full Map",
+        "location_size": 48,
+        "location_border_thickness": 4,
+        "img": "images/maps/map.png"
+    },
+    {
+        "name": "Sunken Glades",
+        "location_size": 48,
+        "location_border_thickness": 4,
+        "img": "images/maps/map.png"
+    },
+    {
+        "name": "Hollow Grove",
+        "location_size": 48,
+        "location_border_thickness": 4,
+        "img": "images/maps/map.png"
+    },
+    {
+        "name": "Moon Grotto",
+        "location_size": 48,
+        "location_border_thickness": 4,
+        "img": "images/maps/map.png"
+    },
+    {
+        "name": "Ginso Tree",
+        "location_size": 48,
+        "location_border_thickness": 4,
+        "img": "images/maps/map.png"
+    },
+    {
+        "name": "Thornfelt Swamp",
+        "location_size": 48,
+        "location_border_thickness": 4,
+        "img": "images/maps/map.png"
+    },
+    {
+        "name": "Valley of the Wind",
+        "location_size": 48,
+        "location_border_thickness": 4,
+        "img": "images/maps/map.png"
+    },
+    {
+        "name": "Misty Wood",
+        "location_size": 48,
+        "location_border_thickness": 4,
+        "img": "images/maps/map.png"
+    },
+    {
+        "name": "Forlorn Ruins",
+        "location_size": 48,
+        "location_border_thickness": 4,
+        "img": "images/maps/map.png"
+    },
+    {
+        "name": "Sorrow Pass",
+        "location_size": 48,
+        "location_border_thickness": 4,
+        "img": "images/maps/map.png"
+    },
+    {
+        "name": "Mount Horu",
+        "location_size": 48,
+        "location_border_thickness": 4,
+        "img": "images/maps/map.png"
+    },
+    {
+        "name": "Black Root Burrows",
+        "location_size": 48,
+        "location_border_thickness": 4,
+        "img": "images/maps/map.png"
+    },
+    {
+        "name": "Lost Grove",
+        "location_size": 48,
+        "location_border_thickness": 4,
+        "img": "images/maps/map.png"
+    }
+]
