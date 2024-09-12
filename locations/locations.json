@@ -3,7 +3,7 @@
         "name": "Full World",
         "children": [
             {
-                "name": "Nibel",
+                "name": "Teleporters",
                 "children": [
                     {
                         "name": "Sunken Glades Spirit Well",
@@ -22,7 +22,7 @@
                             {
                                 "map": "Sunken Glades",
                                 "x": 1010,
-                                "y": 300
+                                "y": 310
                             }
                         ]  
                     },
@@ -45,6 +45,441 @@
                                 "map": "Hollow Grove",
                                 "x": 210,
                                 "y": 330
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Thornfelt Swamp Spirit Well",
+                        "sections": [
+                            {
+                                "name": "SwampTP",
+                                "access_rules": ["swampTP"],
+                                "hosted_item": "swampTP"
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Spirit Wells",
+                                "x": 2770,
+                                "y": 1440
+                            },
+                            {
+                                "map": "Thornfelt Swamp",
+                                "x": 265,
+                                "y": 165
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Moon Grotto Spirit Well",
+                        "sections": [
+                            {
+                                "name": "GrottoTP",
+                                "access_rules": ["grottoTP"],
+                                "hosted_item": "grottoTP"
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Spirit Wells",
+                                "x": 2790,
+                                "y": 1600
+                            },
+                            {
+                                "map": "Moon Grotto",
+                                "x": 480,
+                                "y": 198
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Ginso Tree Spirit Well",
+                        "sections": [
+                            {
+                                "name": "GinsoTP",
+                                "access_rules": ["ginsoTP"],
+                                "hosted_item": "ginsoTP"
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Spirit Wells",
+                                "x": 3190,
+                                "y": 1225
+                            },
+                            {
+                                "map": "Ginso Tree",
+                                "x": 420,
+                                "y": 525
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Valley of the Wind Spirit Well",
+                        "sections": [
+                            {
+                                "name": "ValleyTP",
+                                "access_rules": ["valleyTP"],
+                                "hosted_item": "valleyTP"
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Spirit Wells",
+                                "x": 1240,
+                                "y": 1300
+                            },
+                            {
+                                "map": "Valley of the Wind",
+                                "x": 180,
+                                "y": 130
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Forlorn Ruins Spirit Well",
+                        "sections": [
+                            {
+                                "name": "ForlornTP",
+                                "access_rules": ["forlornTP"],
+                                "hosted_item": "forlornTP"
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Spirit Wells",
+                                "x": 450,
+                                "y": 1800
+                            },
+                            {
+                                "map": "Forlorn Ruins",
+                                "x": 75,
+                                "y": 225
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Sorrow Pass Spirit Well",
+                        "sections": [
+                            {
+                                "name": "SorrowTP",
+                                "access_rules": ["sorrowTP"],
+                                "hosted_item": "sorrowTP"
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Spirit Wells",
+                                "x": 975,
+                                "y": 490
+                            },
+                            {
+                                "map": "Sorrow Pass",
+                                "x": 170,
+                                "y": 165
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Mount Horu Spirit Well",
+                        "sections": [
+                            {
+                                "name": "HoruTP",
+                                "access_rules": ["horuTP"],
+                                "hosted_item": "horuTP"
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Spirit Wells",
+                                "x": 2090,
+                                "y": 1060
+                            },
+                            {
+                                "map": "Mount Horu",
+                                "x": 695,
+                                "y": 685
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Black Root Burrows Spirit Well",
+                        "sections": [
+                            {
+                                "name": "BlackrootTP",
+                                "access_rules": ["burrowsTP"],
+                                "hosted_item": "burrowsTP"
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Spirit Wells",
+                                "x": 2560,
+                                "y": 1790
+                            },
+                            {
+                                "map": "Black Root Burrows",
+                                "x": 730,
+                                "y": 205
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Lost Grove Spirit Well",
+                        "sections": [
+                            {
+                                "name": "GroveTP",
+                                "access_rules": ["groveTP"],
+                                "hosted_item": "groveTP"
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Spirit Wells",
+                                "x": 2360,
+                                "y": 2180
+                            },
+                            {
+                                "map": "Black Root Burrows",
+                                "x": 465,
+                                "y": 735
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Tree's",
+                "children": [
+                    {
+                        "name": "Wall Jump Tree",
+                        "sections": [
+                            {
+                                "name": "Wall Jump Tree",
+                                "hosted_item": "wall_jump_tree",
+                                "access_rules": ["Free"]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Spirit Wells",
+                                "x": 1440,
+                                "y": 1800
+                            },
+                            {
+                                "map": "Sunken Glades",
+                                "x": 87,
+                                "y": 405
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Charge Flame Tree",
+                        "sections": [
+                            {
+                                "name": "Charge Flame Tree",
+                                "hosted_item": "charge_flame_tree",
+                                "access_rules": ["Free"]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Spirit Wells",
+                                "x": 1870,
+                                "y": 1555
+                            },
+                            {
+                                "map": "Hollow Grove",
+                                "x": 305,
+                                "y": 405
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Double Jump Tree",
+                        "sections": [
+                            {
+                                "name": "Double Jump Tree",
+                                "hosted_item": "double_jump_tree",
+                                "access_rules": [
+                                    "WallJump", 
+                                    "glide", 
+                                    "DoubleJump", 
+                                    "Climb, Bash, Grenade", 
+                                    "Climb, ChargeJump", 
+                                    "Climb, $lifeCell|3", 
+                                    "Bash, $lifeCell|3",
+                                    "ChargeJump, $lifeCell|3"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Spirit Wells",
+                                "x": 3248,
+                                "y": 1955
+                            },
+                            {
+                                "map": "Moon Grotto",
+                                "x": 1070,
+                                "y": 705
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Bash Tree",
+                        "sections": [
+                            {
+                                "name": "Bash Tree",
+                                "hosted_item": "bash_tree",
+                                "access_rules": [
+                                    "GinsoKey"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Spirit Wells",
+                                "x": 2835,
+                                "y": 755
+                            },
+                            {
+                                "map": "Ginso Tree",
+                                "x": 112,
+                                "y": 210
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Stomp Tree",
+                        "sections": [
+                            {
+                                "name": "Stomp Tree",
+                                "hosted_item": "stomp_tree",
+                                "access_rules":[
+                                    "Free"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Spirit Wells",
+                                "x": 3365,
+                                "y": 1440
+                            },
+                            {
+                                "map": "Thornfelt Swamp",
+                                "x": 1075,
+                                "y": 200
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Climb Tree",
+                        "sections": [
+                            {
+                                "name": "Climb Tree",
+                                "hosted_item": "climb_tree",
+                                "access_rules":[
+                                    "Free"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Spirit Wells",
+                                "x": 80,
+                                "y": 1450
+                            },
+                            {
+                                "map": "Misty Woods",
+                                "x": 90,
+                                "y": 248
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Charge Jump Tree",
+                        "sections": [
+                            {
+                                "name": "Charge Jump Tree",
+                                "hosted_item": "charge_jump_tree",
+                                "access_rules":[
+                                    "Free"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Spirit Wells",
+                                "x": 800,
+                                "y": 625
+                            },
+                            {
+                                "map": "Sorrow Pass",
+                                "x": 55,
+                                "y": 260
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Dash Tree",
+                        "sections": [
+                            {
+                                "name": "Dash Tree",
+                                "hosted_item": "dash_tree",
+                                "access_rules":[
+                                    "Free"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Spirit Wells",
+                                "x": 2445,
+                                "y": 1715
+                            },
+                            {
+                                "map": "Black Root Burrows",
+                                "x": 557,
+                                "y": 112
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Grenade Tree",
+                        "sections": [
+                            {
+                                "name": "Grenade Tree",
+                                "hosted_item": "grenade_tree",
+                                "access_rules":[
+                                    "Free"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Spirit Wells",
+                                "x": 2075,
+                                "y": 1920
+                            },
+                            {
+                                "map": "Black Root Burrows",
+                                "x": 68,
+                                "y": 375
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Sunken Glades",
+                "children": [
+                    {
+                        "name": "Sunken Glades Runaway",
+                        "sections": [
+                            {
+                                
                             }
                         ]
                     }

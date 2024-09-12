@@ -13,7 +13,7 @@
                     ["stomp", "glide", "climb", "charge_jump", "dash"],
                     ["water_vein", "clean_water", "gumon_seal", "wind", "sunstone"],
                     ["hollowTP", "groveTP", "swampTP", "grottoTP", "ginsoTP"],
-                    ["valleyTP", "ruinsTP", "sorrowTP", "horuTP", "burrowsTP"],
+                    ["valleyTP", "forlornTP", "sorrowTP", "horuTP", "burrowsTP"],
                     ["wall_jump_tree", "charge_flame_tree", "double_jump_tree", "bash_tree", "stomp_tree"],
                     ["climb_tree", "charge_jump_tree", "granade_tree", "dash_tree"]
                 ]

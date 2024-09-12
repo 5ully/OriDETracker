@@ -71,7 +71,7 @@
         "name": "Water Vein",
         "type": "toggle",
         "img": "images/items/GravityElementPlaceholderA.png",
-        "codes": "water_vein"
+        "codes": "water_vein, GinsoKey"
     },
     {
         "name": "Clean Water",
@@ -137,7 +137,7 @@
         "name": "Forlorn Ruins",
         "type": "toggle",
         "img": "images/items/Teleporter_map_icon.png",
-        "codes": "ruinsTP"
+        "codes": "forlornTP"
     },
     {
         "name": "Sorrow Pass",
@@ -213,10 +213,10 @@
         "codes": "stomp_tree"
     },
     {
-        "name": "Light Burst Tree",
+        "name": "Grenade Tree",
         "type": "toggle",
         "img": "images/items/Ancestor_Tree_map_icon.png",
-        "codes": "granade_tree"
+        "codes": "grenade_tree"
     },
     {
         "name": "Life Cell",
