@@ -25,6 +25,15 @@
                                 "type": "layout",
                                 "key": "shared_item_grid"
                             }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Other",
+                            "dock": "top",
+                            "content": {
+                                "type": "layout",
+                                "key": "other"
+                            }
                         }
                     ]
                 },

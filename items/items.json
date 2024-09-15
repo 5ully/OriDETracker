@@ -14,7 +14,7 @@
     {
         "name": "Charge Flame",
 		"type": "toggle",
-		"img": "images/items/InventoryChargeJumpIcon.png",
+		"img": "images/items/InventoryChargeFlameIcon.png",
 		"codes": "charge_flame"
     },
     {
@@ -63,8 +63,8 @@
     {
         "name": "Light Burst",
         "type": "toggle",
-        "img": "images/items/InventoryGranadeIcon.png",
-        "codes": "light_burst"
+        "img": "images/items/InventoryGrenadeIcon.png",
+        "codes": "light_burst, grenade"
     },
 
     {
@@ -221,19 +221,37 @@
     {
         "name": "Life Cell",
         "type": "consumable",
+        "increment": 1,
+        "initial_quantity": 0,
         "img": "images/items/LifeCellPickup.png",
         "codes": "lifeCell"
     },
     {
         "name": "Energy Cell",
-        "type": "toggle",
+        "type": "consumable",
+        "increment": 1,
+        "initial_quantity": 0,
         "img": "images/items/EnergyCell.png",
         "codes": "energyCell"
     },
     {
         "name": "Map Stone",
         "type": "consumable",
+        "increment": 1,
         "img": "images/items/MapStonePickup.png",
-        "codes": "mapStone"
+        "codes": "mapstone"
+    },
+    {
+        "name": "Keystone",
+        "type": "consumable",
+        "increment": 1,
+        "img": "images/items/Keystone_map_icon.png",
+        "codes": "keystone"
+    },
+    {
+        "name": "Experience Level",
+        "type": "consumable",
+        "increment": 1,
+        "codes": "lvl"
     }
 ]   

@@ -257,7 +257,7 @@
                             {
                                 "name": "Wall Jump Tree",
                                 "hosted_item": "wall_jump_tree",
-                                "access_rules": ["Free"]
+                                "access_rules": ["keystone:2"]
                             }
                         ],
                         "map_locations": [
@@ -302,14 +302,7 @@
                                 "name": "Double Jump Tree",
                                 "hosted_item": "double_jump_tree",
                                 "access_rules": [
-                                    "WallJump", 
-                                    "glide", 
-                                    "DoubleJump", 
-                                    "Climb, Bash, Grenade", 
-                                    "Climb, ChargeJump", 
-                                    "Climb, $lifeCell|3", 
-                                    "Bash, $lifeCell|3",
-                                    "ChargeJump, $lifeCell|3"
+                                    "Free"
                                 ]
                             }
                         ],
@@ -477,12 +470,676 @@
                 "children": [
                     {
                         "name": "Sunken Glades Runaway",
-                        "sections": [
+                        "children": [
                             {
-                                
+                                "name": "First Pickup",
+                                "sections": [
+                                    {
+                                        "name": "FirstPickup EX15",
+                                        "access_rules":[]
+                                    }
+                                ],
+                                "map_locations": [
+                                    {
+                                        "map": "Sunken Glades",
+                                        "x": 982,
+                                        "y": 247
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "First Energy Cell",
+                                "sections": [
+                                    {
+                                        "name": "SunkenGladesFirstEC",
+                                        "access_rules":[]
+                                    }
+                                ],
+                                "map_locations": [
+                                    {
+                                        "map": "Sunken Glades",
+                                        "x": 739,
+                                        "y": 304
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Fronkey Fight",
+                                "sections": [
+                                    {
+                                        "name": "FronkeyFight EX15",
+                                        "access_rules":[]
+                                    }
+                                ],
+                                "map_locations": [
+                                    {
+                                        "map": "Sunken Glades",
+                                        "x": 461,
+                                        "y": 336
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Glades Keystone 1",
+                                "sections": [
+                                    {
+                                        "name": "GladesKeystone1 KS",
+                                        "access_rules":[]
+                                    }
+                                ],
+                                "map_locations": [
+                                    {
+                                        "map": "Sunken Glades",
+                                        "x": 948,
+                                        "y": 230
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Glades Keystone 2",
+                                "sections": [
+                                    {
+                                        "name": "GladesKeystone2 KS",
+                                        "access_rules":[]
+                                    }
+                                ],
+                                "map_locations": [
+                                    {
+                                        "map": "Sunken Glades",
+                                        "x": 750,
+                                        "y": 192
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Glades Grenade Pool",
+                                "sections": [
+                                    {
+                                        "name": "gladesGrenadePool EX200",
+                                        "access_rules":[
+                                            "grenade, clean_water"
+                                        ]
+                                    }
+                                ],
+                                "map_locations": [
+                                    {
+                                        "map": "Sunken Glades",
+                                        "x": 900,
+                                        "y": 350
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Glades Grenade Tree",
+                                "sections": [
+                                    {
+                                        "name": "GladesGrenadeTree AC",
+                                        "access_rules":["grenade"]
+                                    }
+                                ],
+                                "map_locations": [
+                                    {
+                                        "map": "Sunken Glades",
+                                        "x": 958,
+                                        "y": 173
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Glades Main Pool",
+                                "sections": [
+                                    {
+                                        "name": "GladesMainPool EX100",
+                                        "access_rules":[
+                                            "clean_water"
+                                        ]
+                                    }
+                                ],
+                                "map_locations": [
+                                    {
+                                        "map": "Sunken Glades",
+                                        "x": 792,
+                                        "y": 270
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Glades Main Pool Deep",
+                                "sections": [
+                                    {
+                                        "name": "GladesMainPoolDeep EC",
+                                        "access_rules":["clean_water"]
+                                    }
+                                ],
+                                "map_locations": [
+                                    {
+                                        "map": "Sunken Glades",
+                                        "x": 688,
+                                        "y": 266
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Fronkey Walk Roof",
+                                "sections": [
+                                    {
+                                        "name": "FronkeyWalkRoof EX200",
+                                        "access_rules":[
+                                            "charge_jump",
+                                            "glide, wind",
+                                            "bash, grenade"
+                                        ]
+                                    }
+                                ],
+                                "map_locations": [
+                                    {
+                                        "map": "Sunken Glades",
+                                        "x": 1341,
+                                        "y": 182
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Glades Main",
+                        "access_rules":[
+                            "keystone:2"
+                        ],
+                        "children": [
+                            
+                            {
+                                "name": "Fouth Health Cell",
+                                "sections": [
+                                    {
+                                        "name": "FourthHelthCell HC",
+                                        "access_rules":[]
+                                    }
+                                ],
+                                "map_locations": [
+                                    {
+                                        "map": "Sunken Glades",
+                                        "x": 599,
+                                        "y": 155
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Glades Map Keystone",
+                                "sections": [
+                                    {
+                                        "name": "GladesMapKeystone KS",
+                                        "access_rules":[]
+                                    }
+                                ],
+                                "map_locations": [
+                                    {
+                                        "map": "Sunken Glades",
+                                        "x": 645,
+                                        "y": 273
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Glades Map",
+                                "sections": [
+                                    {
+                                        "name": "Glades Map",
+                                        "access_rules":[
+                                            "mapstone:9"
+                                        ]
+                                    }
+                                ],
+                                "map_locations": [
+                                    {
+                                        "map": "Sunken Glades",
+                                        "x": 596,
+                                        "y": 282
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Glades Main Attic",
+                        "access_rules":[
+                            "keystone:2"
+                        ],
+                        "children": [
+                            {
+                                "name": "Above Fourth Health Cell",
+                                "sections": [
+                                    {
+                                        "name": "AboveFourthHealthCell AC",
+                                        "access_rules":[
+                                            "bash, [grenade]",
+                                            "bash, [wall_jump]",
+                                            "bash, [climb]",
+                                            "bash, [wall_jump]",
+                                            "charge_jump"
+                                        ]
+                                    }
+                                ],
+                                "map_locations": [
+                                    {
+                                        "map": "Sunken Glades",
+                                        "x": 666,
+                                        "y": 106
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Left Glades",
+                        "access_rules":[
+                            "keystone:2"
+                        ],
+                        "children": [
+                            {
+                                "name": "Left Glades Hidden",
+                                "sections": [
+                                    {
+                                        "name": "LeftGladesHiddenExp EX15",
+                                        "access_rules":[]
+                                    }
+                                ],
+                                "map_locations": [
+                                    {
+                                        "map": "Sunken Glades",
+                                        "x": 152,
+                                        "y": 262
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Wall Jump Area Exp",
+                                "sections": [
+                                    {
+                                        "name": "WallJumpAreaExp EX200",
+                                        "access_rules":[
+                                            "charge_jump",
+                                            "bash, grenade"
+                                        ]
+                                    }
+                                ],
+                                "map_locations": [
+                                    {
+                                        "map": "Sunken Glades",
+                                        "x": 215,
+                                        "y": 362
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "WallJumpAreaEnergyCell",
+                                "sections": [
+                                    {
+                                        "name": "WallJumpAreaEnergyCell EC",
+                                        "access_rules":[
+                                            "wall_jump",
+                                            "charge_jump",
+                                            "climb",
+                                            "bash, grenade"
+                                        ]
+                                    }
+                                ],
+                                "map_locations": [
+                                    {
+                                        "map": "Sunken Glades",
+                                        "x": 35,
+                                        "y": 375
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Upper Left Glades",
+                        "access_rules":[
+                            "keystone:2, wall_jump",
+                            "keystone:2, climb",
+                            "keystone:2, bash, grenade",
+                            "keystone:2, charge_jump"
+                        ],
+                        "children": [
+                            {
+                                "name": "Left Glades Exp",
+                                "sections": [
+                                    {
+                                        "name": "LeftGladesExp EX15",
+                                        "access_rules":[]
+                                    }
+                                ],
+                                "map_locations": [
+                                    {
+                                        "map": "Sunken Glades",
+                                        "x": 235,
+                                        "y": 203
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Left Glades Keystone",
+                                "sections": [
+                                    {
+                                        "name": "LeftGladesKeystone KS",
+                                        "access_rules":[]
+                                    }
+                                ],
+                                "map_locations": [
+                                    {
+                                        "map": "Sunken Glades",
+                                        "x": 258,
+                                        "y": 203
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Left Glades Mapstone",
+                                "sections": [
+                                    {
+                                        "name": "LeftGladesMapstone MS",
+                                        "access_rules":[]
+                                    }
+                                ],
+                                "map_locations": [
+                                    {
+                                        "map": "Sunken Glades",
+                                        "x": 370,
+                                        "y": 240
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Death Gauntlet",
+                        "access_rules":[
+                            "energyCell:4, wall_jump",
+                            "energyCell:4, climb",
+                            "energyCell:4, bash, grenade",
+                            "energyCell:4, charge_jump",
+                            "energyCell:4, double_jump",
+                            "grottoTP, wall_jump",
+                            "grottoTP, climb",
+                            "grottoTP, bash, grenade",
+                            "grottoTP, charge_jump",
+                            "grottoTP, double_jump",
+                            "stomp, keystone:8, clean_water, wall_jump, grenade",
+                            "stomp, keystone:8,clean_water, wall_jump, charge_flame"
+                        ],
+                        "children": [
+                            {
+                                "name": "Death Gauntlet Exp",
+                                "sections": [
+                                    {
+                                        "name": "DeathGauntletExp EX100",
+                                        "access_rules":[]
+                                    }
+                                ],
+                                "map_locations": [
+                                    {
+                                        "map": "Hollow Grove",
+                                        "x": 1097,
+                                        "y": 488
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Death Gauntlet Stomp Swim",
+                                "sections": [
+                                    {
+                                        "name": "DeathGauntletStompSwim EX200",
+                                        "access_rules":[
+                                            "[stomp], [clean_water]"
+                                        ]
+                                    }
+                                ],
+                                "map_locations": [
+                                    {
+                                        "map": "Hollow Grove",
+                                        "x": 1204,
+                                        "y": 519
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Death Gauntlet Energy Cell",
+                                "sections": [
+                                    {
+                                        "name": "DeathGauntletEnergyCell EC",
+                                        "access_rules":[]
+                                    }
+                                ],
+                                "map_locations": [
+                                    {
+                                        "map": "Moon Grotto",
+                                        "x": 267,
+                                        "y": 185
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Death Gauntlet Roof",
+                                "access_rules":[
+                                    "stomp, clean_water",
+                                    "charge_jump",
+                                    "stomp, keystone:8, wall_jump, grenade",
+                                    "stomp, keystone:8, wall_jump, charge_flame"
+                                ],
+                                "children": [
+                                    {
+                                        "name": "Death Gauntlet Health Cell",
+                                        "sections": [
+                                            {
+                                                "name": "DeathGauntletHealthCell HC",
+                                                "access_rules":[]
+                                            }
+                                        ],
+                                        "map_locations": [
+                                            {
+                                                "map": "Hollow Grove",
+                                                "x": 1128,
+                                                "y": 460
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Death Gauntlet Roof Plant",
+                                        "sections": [
+                                            {
+                                                "name": "DeathGauntletRoofPlant Plant",
+                                                "access_rules":[
+                                                    "charge_flame",
+                                                    "grenade"
+                                                ]
+                                            }
+                                        ],
+                                        "map_locations": [
+                                            {
+                                                "map": "Hollow Grove",
+                                                "x": 1170,
+                                                "y": 460
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Spirit Caverns",
+                        "access_rules":[
+                            "keystone:4, wall_jump",
+                            "keystone:4, climb",
+                            "keystone:4, bash",
+                            "keystone:4, charge_jump",
+                            "keystone:4, double_jump, climb",
+                            "keystone:4, double_jump, wall_jump"
+                        ],
+                        "children": [
+                            {
+                                "name": "Lower Spirit Caverns",
+                                "access_rules":[],
+                                "children": [
+                                    {
+                                        "name": "Spirit Caverns Keystone 1",
+                                        "sections": [
+                                            {
+                                                "name": "SpiritCavernsKeystone 1 KS",
+                                                "access_rules":[]
+                                            }
+                                        ],
+                                        "map_locations": [
+                                            {
+                                                "map": "Sunken Glades",
+                                                "x": 370,
+                                                "y": 170
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Spirit Caverns Keystone 2",
+                                        "sections": [
+                                            {
+                                                "name": "SpiritCavernsKeystone 2 KS",
+                                                "access_rules":[]
+                                            }
+                                        ],
+                                        "map_locations": [
+                                            {
+                                                "map": "Sunken Glades",
+                                                "x": 295,
+                                                "y": 147
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Spirit Caverns Ability Cell",
+                                        "sections": [
+                                            {
+                                                "name": "SpiritCavernsAbilityCell AC",
+                                                "access_rules":[
+                                                    "charge_jump",
+                                                    "bash",
+                                                    "wall_jump, double_jump"
+                                                ]
+                                            }
+                                        ],
+                                        "map_locations": [
+                                            {
+                                                "map": "Sunken Glades",
+                                                "x": 295,
+                                                "y": 128
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Middle Spirit Caverns",
+                                "access_rules":[
+                                    "energyCell:4, bash",
+                                    "energyCell:4, charge_jump",
+                                    "energyCell:4,  double_jump",
+                                    "[energyCell:4], bash, grenade"
+
+                                ],
+                                "children": [
+                                    {
+                                        "name": "Glades Laser",
+                                        "sections": [
+                                            {
+                                                "name": "GladesLaser EC",
+                                                "access_rules":[]
+                                            }
+                                        ],
+                                        "map_locations": [
+                                            {
+                                                "map": "Sunken Glades",
+                                                "x": 430,
+                                                "y": 150
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Glades Laser Grenade",
+                                        "sections": [
+                                            {
+                                                "name": "GladesLaserGrenade AC",
+                                                "access_rules":[
+                                                    "grenade, climb, bash",
+                                                    "grenade, climb, double_jump, charge_jump, glide",
+                                                    "grenade, wall_jump, bash",
+                                                    "grenade, wall_jump, double_jump, charge_jump, glide",
+                                                    "grenade, climb, double_jump, lvl:5, charge_jump",
+                                                    "grenade, wall_jump, double_jump, lvl:5, charge_jump, glide"
+                                                ]
+                                            }
+                                        ],
+                                        "map_locations": [
+                                            {
+                                                "map": "Sunken Glades",
+                                                "x": 415,
+                                                "y": 50
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Upper Spirit Caverns",
+                                "access_rules":[
+                                    "wall_jump",
+                                    "climb",
+                                    "charge_jump",
+                                    "grenade, bash"
+                                ],
+                                "children": [
+                                    {
+                                        "name": "Spirit Caverns Top Left Keystone",
+                                        "sections": [
+                                            {
+                                                "name": "SpiritCavernsTopLeftKeystone KS",
+                                                "access_rules":[
+                                                    "walljump",
+                                                    "double_jump, climb",
+                                                    "glide, climb",
+                                                    "charge_jump",
+                                                    "bash"
+                                                ]
+                                            }
+                                        ],
+                                        "map_locations": [
+                                            {
+                                                "map": "Sunken Glades",
+                                                "x": 295,
+                                                "y": 65
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Spirit Caverns Top Right Keystone",
+                                        "sections": [
+                                            {
+                                                "name": "SpiritCavernsTopRightKeystone KS",
+                                                "access_rules":[]
+                                            }
+                                        ],
+                                        "map_locations": [
+                                            {
+                                                "map": "Sunken Glades",
+                                                "x": 380,
+                                                "y": 78
+                                            }
+                                        ]
+                                    }
+                                ]
                             }
                         ]
                     }
+                    
                 ]
             }
         ]
