@@ -4551,12 +4551,12 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Mount Horu",
+                        "map": "",
                         "x": 540,
                         "y": 775
                     },
                     {
-                        "map": "Nibel",
+                        "map": "",
                         "x": 1985,
                         "y": 1147
                     }
