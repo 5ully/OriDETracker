@@ -11,8 +11,8 @@
                 "rows": [
                     ["grenade", "wall_jump", "charge_flame", "double_jump", "bash"],
                     ["stomp", "glide", "climb", "charge_jump", "dash"],
-                    ["water_vein", "clean_water", "gumon_seal", "wind", "sunstone"],
-                    ["hollowTP", "groveTP", "swampTP", "grottoTP", "ginsoTP"],
+                    ["Water_vein", "Clean_water", "Gumon_seal", "Wind", "Sunstone"],
+                    ["gladesTP", "hollowTP", "swampTP", "grottoTP", "ginsoTP"],
                     ["valleyTP", "forlornTP", "sorrowTP", "horuTP", "burrowsTP"],
                     ["wall_jump_tree", "charge_flame_tree", "double_jump_tree", "bash_tree", "stomp_tree"],
                     ["climb_tree", "charge_jump_tree", "grenade_tree", "dash_tree"]
@@ -20,7 +20,22 @@
             }
         ]
     },
-    "other": {
+    "consumables": {
+        "type": "array", 
+        "orientation": "horizontal",
+        "content": [
+            {
+                "type": "itemgrid",
+                "h_alignment": "left",
+                "item_margin": "1,2",
+                "item_size": 60,
+                "rows": [
+                    ["lifeCell", "energyCell", "mapstone", "keystone"]
+                ]
+            }
+        ]
+    },
+    "brodcast": {
         "type": "array",
         "orientation": "horizontal",
         "content": [
@@ -30,7 +45,14 @@
                 "item_margin": "1,2",
                 "item_size": 60,
                 "rows": [
-                    ["lifeCell", "energyCell", "mapStone", "keystone"]
+                    ["grenade", "wall_jump", "charge_flame", "double_jump", "bash"],
+                    ["stomp", "glide", "climb", "charge_jump", "dash"],
+                    ["Water_vein", "Clean_water", "Gumon_seal", "Wind", "Sunstone"],
+                    ["hollowTP", "groveTP", "swampTP", "grottoTP", "ginsoTP"],
+                    ["valleyTP", "forlornTP", "sorrowTP", "horuTP", "burrowsTP"],
+                    ["wall_jump_tree", "charge_flame_tree", "double_jump_tree", "bash_tree", "stomp_tree"],
+                    ["climb_tree", "charge_jump_tree", "grenade_tree", "dash_tree"],
+                    ["lifeCell", "energyCell", "mapstone", "keystone"]
                 ]
             }
         ]

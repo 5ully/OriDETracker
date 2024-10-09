@@ -77,25 +77,25 @@
         "name": "Clean Water",
         "type": "toggle",
         "img": "images/items/CleanWater.png",
-        "codes": "clean_water"
+        "codes": "Clean_water"
     },
     {
         "name": "Gumon Seal",
         "type": "toggle",
         "img": "images/items/GumonSealForlornRuinsEntranceDoorShard.png",
-        "codes": "gumon_seal"
+        "codes": "Gumon_seal"
     },
     {
         "name": "Wind Restored",
         "type": "toggle",
         "img": "images/items/WindRestored.png",
-        "codes": "wind"
+        "codes": "Wind"
     },
     {
         "name": "Sunstone",
         "type": "toggle",
         "img": "images/items/SunstoneA.png",
-        "codes": "sunstone"
+        "codes": "Sunstone"
     },
     {
         "name": "Sunken Glades",
@@ -158,10 +158,10 @@
         "codes": "burrowsTP"
     },
     {
-        "name": "Lost Grove",
+        "name": "Sunken Glades",
         "type": "toggle",
         "img": "images/items/Teleporter_map_icon.png",
-        "codes": "groveTP"
+        "codes": "gladesTP"
     },
 
     {
@@ -204,7 +204,7 @@
         "name": "Wall Jump Tree",
         "type": "toggle",
         "img": "images/items/Ancestor_Tree_map_icon.png",
-        "codes": "wall_jump_tree"
+        "codes": "wall_jump_tree, WallJumpSkillTree"
     },
     {
         "name": "Stomp Tree",
@@ -230,6 +230,7 @@
         "name": "Energy Cell",
         "type": "consumable",
         "increment": 1,
+        "decrement": 1,
         "initial_quantity": 0,
         "img": "images/items/EnergyCell.png",
         "codes": "energyCell"
@@ -238,6 +239,7 @@
         "name": "Map Stone",
         "type": "consumable",
         "increment": 1,
+        "decrement": 1,
         "img": "images/items/MapStonePickup.png",
         "codes": "mapstone"
     },
@@ -245,6 +247,8 @@
         "name": "Keystone",
         "type": "consumable",
         "increment": 1,
+        "decrement": 1,
+        "max_quantity": 500,
         "img": "images/items/Keystone_map_icon.png",
         "codes": "keystone"
     },
@@ -252,6 +256,13 @@
         "name": "Experience Level",
         "type": "consumable",
         "increment": 1,
-        "codes": "lvl"
+        "decrement": 1,
+        "codes": "abilityCell"
+    },
+    {
+        "name": "AllTreesGoal",
+        "type": "consumable",
+        "increment": 1,
+        "codes": "TreesTotal"
     }
 ]   

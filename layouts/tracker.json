@@ -28,11 +28,11 @@
                         },
                         {
                             "type": "group",
-                            "header": "Other",
+                            "header": "Collectables",
                             "dock": "top",
                             "content": {
                                 "type": "layout",
-                                "key": "other"
+                                "key": "consumables"
                             }
                         }
                     ]
@@ -41,10 +41,10 @@
                     "type": "tabbed",
                     "tabs": [
                         {
-                            "title": "Spirit Wells",
+                            "title": "Nibel",
                             "content": {
                                 "type": "map",
-                                "maps": ["Spirit Wells"]
+                                "maps": ["Nibel"]
                             }
                         },
                         {

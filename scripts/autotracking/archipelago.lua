@@ -142,6 +142,9 @@ function onLocation(location_id, location_name)
         return
     end
     local v = LOCATION_MAPPING[location_id]
+    if location_id == "WallJumpSkillTree" then
+        wall_jump_tree.Active = True
+    end
     if not v and AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(string.format("onLocation: could not find location mapping for id %s", location_id))
     end
@@ -157,6 +160,46 @@ function onLocation(location_id, location_name)
         end
     elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(string.format("onLocation: could not find object for code %s", v[1]))
+    end
+
+    -- Tree location detection (goal stuff)
+    if location_name == "WallJumpSkillTree" then
+        Tracker:FindObjectForCode("wall_jump_tree").Active = true
+        Tracker:FindObjectForCode("TreesTotal").AcquiredCount = Tracker:FindObjectForCode("TreesTotal").AcquiredCount + 1
+
+    elseif location_name == "ChargeFlameSkillTree" then
+        Tracker:FindObjectForCode("charge_flame_tree").Active = true
+        Tracker:FindObjectForCode("TreesTotal").AcquiredCount = Tracker:FindObjectForCode("TreesTotal").AcquiredCount + 1
+
+    elseif location_name == "DoubleJumpSkillTree" then
+        Tracker:FindObjectForCode("double_jump_tree").Active = true
+        Tracker:FindObjectForCode("TreesTotal").AcquiredCount = Tracker:FindObjectForCode("TreesTotal").AcquiredCount + 1
+
+    elseif location_name == "BashSkillTree" then
+        Tracker:FindObjectForCode("bash_tree").Active = true
+        Tracker:FindObjectForCode("TreesTotal").AcquiredCount = Tracker:FindObjectForCode("TreesTotal").AcquiredCount + 1
+
+    elseif location_name == "StompSkillTree" then
+        Tracker:FindObjectForCode("stomp_tree").Active = true
+        Tracker:FindObjectForCode("TreesTotal").AcquiredCount = Tracker:FindObjectForCode("TreesTotal").AcquiredCount + 1
+    
+    elseif location_name == "ClimbSkillTree" then
+        Tracker:FindObjectForCode("climb_tree").Active = true
+        Tracker:FindObjectForCode("TreesTotal").AcquiredCount = Tracker:FindObjectForCode("TreesTotal").AcquiredCount + 1
+
+    elseif location_name == "ChargeJumpSkillTree" then
+        Tracker:FindObjectForCode("charge_jump_tree").Active = true
+        Tracker:FindObjectForCode("TreesTotal").AcquiredCount = Tracker:FindObjectForCode("TreesTotal").AcquiredCount + 1
+
+    elseif location_name == "DashSkillTree" then
+        Tracker:FindObjectForCode("dash_tree").Active = true
+        Tracker:FindObjectForCode("TreesTotal").AcquiredCount = Tracker:FindObjectForCode("TreesTotal").AcquiredCount + 1
+
+    elseif location_name == "GrenadeSkillTree" then
+        Tracker:FindObjectForCode("grenade_tree").Active = true
+        Tracker:FindObjectForCode("TreesTotal").AcquiredCount = Tracker:FindObjectForCode("TreesTotal").AcquiredCount + 1
+
+    else
     end
 end
 
@@ -183,8 +226,18 @@ Archipelago:AddClearHandler("clear handler", onClear)
 if AUTOTRACKER_ENABLE_ITEM_TRACKING then
     Archipelago:AddItemHandler("item handler", onItem)
 end
-if AUTOTRACKER_ENABLE_LOCATION_TRACKING then
+if AUTOTRACKER_ENABLE_LOCATION_TRACKING then  
     Archipelago:AddLocationHandler("location handler", onLocation)
 end
 -- Archipelago:AddScoutHandler("scout handler", onScout)
 -- Archipelago:AddBouncedHandler("bounce handler", onBounce)
+
+function tree_toggle()
+    if Tracker:FindObjectForCode("@Full World/Trees/Wall Jump Tree/WallJumpSkillTree").Active then
+        Tracker:FindObjectForCode("wall_jump").Active = true
+    elseif Tracker:FindObjectForCode("WallJumpSkillTree").Active == false then
+        Tracker:FindObjectForCode("wall_jump").Active = false
+    end
+end
+
+Scripthost:AddWatchForCode("wall_jump_toggle", "WallJumpSkillTree", tree_toggle)

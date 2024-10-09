@@ -1,6 +1,6 @@
 [
     {
-        "name": "Spirit Wells",
+        "name": "Nibel",
         "location_size": 48,
         "location_border_thickness": 4,
         "img": "images/maps/full_map.png"
@@ -25,7 +25,7 @@
     },
     {
         "name": "Ginso Tree",
-        "location_size": 16,
+        "location_size": 10,
         "location_border_thickness": 1,
         "img": "images/maps/ginso_tree.png"
     },
@@ -37,13 +37,13 @@
     },
     {
         "name": "Valley of the Wind",
-        "location_size": 16,
+        "location_size": 12,
         "location_border_thickness": 1,
         "img": "images/maps/valley_wind.png"
     },
     {
         "name": "Misty Woods",
-        "location_size": 16,
+        "location_size": 12,
         "location_border_thickness": 1,
         "img": "images/maps/misty_wood.png"
     },
@@ -55,7 +55,7 @@
     },
     {
         "name": "Sorrow Pass",
-        "location_size": 16,
+        "location_size": 10,
         "location_border_thickness": 1,
         "img": "images/maps/sorrow_pass.png"
     },
