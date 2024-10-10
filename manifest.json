@@ -1,8 +1,8 @@
 ﻿{
-    "name": "OriDE PopTracker",
+    "name": "OriDE AP PopTracker",
     "game_name": "Ori and the Blind Forest DE",
-    "package_version": "0.0.0.1",
-    "package_uid": "template_pack",
+    "package_version": "0.0.1",
+    "package_uid": "OriDE_maptracker_5ully_",
     "platform": "PC", 
     "author": "5ully_",
     "variants": {
@@ -18,5 +18,6 @@
                 "ap"
             ]
         }
-    }
+    },
+    "versions_url": ""
 }
