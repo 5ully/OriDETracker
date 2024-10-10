@@ -30,7 +30,7 @@
                 "item_margin": "1,2",
                 "item_size": 60,
                 "rows": [
-                    ["lifeCell", "energyCell", "mapstone", "keystone"]
+                    ["healthCell", "energyCell", "mapstone", "keystone"]
                 ]
             }
         ]

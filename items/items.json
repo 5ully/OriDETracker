@@ -9,62 +9,61 @@
         "name": "Wall Jump",
 		"type": "toggle",	
 		"img":"images/items/InventoryWallJumpIcon.png",
-		"codes": "wall_jump"
+		"codes": "wall_jump, WallJump"
     },
     {
         "name": "Charge Flame",
 		"type": "toggle",
 		"img": "images/items/InventoryChargeFlameIcon.png",
-		"codes": "charge_flame"
+		"codes": "charge_flame, ChargeFlame"
     },
     {
         "name": "Double Jump",
         "type": "toggle",
         "img": "images/items/InventoryDoubleJumpIcon.png",
-        "codes": "double_jump"
+        "codes": "double_jump, DoubleJump"
     },
     {
         "name": "Bash",
         "type": "toggle",    
         "img": "images/items/InventoryBashIcon.png",
-        "codes": "bash"
+        "codes": "bash, Bash"
     },
     {
         "name": "Stomp",
         "type": "toggle", 
         "img": "images/items/InventoryStompIcon.png",
-        "codes": "stomp"
+        "codes": "stomp, Stomp"
     },
     {
         "name": "Kuro's Feather",
         "type": "toggle",
         "img": "images/items/InventoryGlideIcon.png",
-        "codes": "glide"
+        "codes": "glide, Glide"
     },
     {
         "name": "Climb",
-        "type": "toggle",
-        
+        "type": "toggle",  
         "img": "images/items/InventoryClimbIcon.png",
-        "codes": "climb"
+        "codes": "climb, Climb"
     },
     {
         "name": "Charge Jump",
         "type": "toggle",
         "img": "images/items/InventoryChargeJumpIcon.png",
-        "codes": "charge_jump"
+        "codes": "charge_jump, ChargeJump"
     },
     {
         "name": "Dash",
         "type": "toggle",
         "img": "images/items/InventoryDashIcon.png",
-        "codes": "dash"
+        "codes": "dash, Dash"
     },
     {
         "name": "Light Burst",
         "type": "toggle",
         "img": "images/items/InventoryGrenadeIcon.png",
-        "codes": "light_burst, grenade"
+        "codes": "light_burst, grenade, Grenade"
     },
 
     {
@@ -77,13 +76,13 @@
         "name": "Clean Water",
         "type": "toggle",
         "img": "images/items/CleanWater.png",
-        "codes": "Clean_water"
+        "codes": "Clean_water, CleanWater"
     },
     {
         "name": "Gumon Seal",
         "type": "toggle",
         "img": "images/items/GumonSealForlornRuinsEntranceDoorShard.png",
-        "codes": "Gumon_seal"
+        "codes": "Gumon_seal, ForlornKey"
     },
     {
         "name": "Wind Restored",
@@ -95,73 +94,67 @@
         "name": "Sunstone",
         "type": "toggle",
         "img": "images/items/SunstoneA.png",
-        "codes": "Sunstone"
-    },
-    {
-        "name": "Sunken Glades",
-        "type": "toggle",
-        "img": "images/items/Teleporter_map_icon.png",
-        "codes": "gladesTP"
+        "codes": "Sunstone, HoruKey"
     },
     {
         "name": "Hollow Grove",
         "type": "toggle",
         "img": "images/items/Teleporter_map_icon.png",
-        "codes": "hollowTP"
+        "codes": "hollowTP, TPGrove"
     },
     {
         "name": "Thornefelt Swamp",
         "type": "toggle",
         "img": "images/items/Teleporter_map_icon.png",
-        "codes": "swampTP"
+        "codes": "swampTP, TPSwamp"
     },
     {
         "name": "Moon Grotto",
         "type": "toggle",
         "img": "images/items/Teleporter_map_icon.png",
-        "codes": "grottoTP"
+        "codes": "grottoTP, TPGrotto"
     },
     {
         "name": "Ginso Tree",
         "type": "toggle",
         "img": "images/items/Teleporter_map_icon.png",
-        "codes": "ginsoTP"
+        "codes": "ginsoTP, TPGinso"
     },
     {
         "name": "Valley of the Wind",
         "type": "toggle",
         "img": "images/items/Teleporter_map_icon.png",
-        "codes": "valleyTP"
+        "codes": "valleyTP, TPValley"
     },
     {
         "name": "Forlorn Ruins",
         "type": "toggle",
         "img": "images/items/Teleporter_map_icon.png",
-        "codes": "forlornTP"
+        "codes": "forlornTP, TPForlorn"
     },
     {
         "name": "Sorrow Pass",
         "type": "toggle",
         "img": "images/items/Teleporter_map_icon.png",
-        "codes": "sorrowTP"
+        "codes": "sorrowTP, TPSorrow"
     },
     {
         "name": "Mount Horu",
         "type": "toggle",
         "img": "images/items/Teleporter_map_icon.png",
-        "codes": "horuTP"
+        "codes": "horuTP, TPHoru"
     },
     {
         "name": "Black Root Burrows",
         "type": "toggle",
         "img": "images/items/Teleporter_map_icon.png",
-        "codes": "burrowsTP"
+        "codes": "burrowsTP, TPBlackroot"
     },
     {
         "name": "Sunken Glades",
         "type": "toggle",
         "img": "images/items/Teleporter_map_icon.png",
-        "codes": "gladesTP"
+        "codes": "gladesTP, TPGlades"
     },
 
     {
@@ -219,12 +212,12 @@
         "codes": "grenade_tree"
     },
     {
-        "name": "Life Cell",
+        "name": "Health Cell",
         "type": "consumable",
         "increment": 1,
         "initial_quantity": 0,
         "img": "images/items/LifeCellPickup.png",
-        "codes": "lifeCell"
+        "codes": "healthCell, HealthCell"
     },
     {
         "name": "Energy Cell",
@@ -233,7 +226,7 @@
         "decrement": 1,
         "initial_quantity": 0,
         "img": "images/items/EnergyCell.png",
-        "codes": "energyCell"
+        "codes": "energyCell,EnergyCell"
     },
     {
         "name": "Map Stone",
@@ -250,7 +243,7 @@
         "decrement": 1,
         "max_quantity": 500,
         "img": "images/items/Keystone_map_icon.png",
-        "codes": "keystone"
+        "codes": "keystone, KeyStone"
     },
     {
         "name": "Experience Level",

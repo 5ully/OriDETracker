@@ -3,7 +3,7 @@
 -- here are the SM items as an example: https://github.com/Cyb3RGER/sm_ap_tracker/blob/main/scripts/autotracking/item_mapping.lua
 ITEM_MAPPING = {
 	[262144] = {"abilityCell", "consumable"},
-	[262145] = {"lifeCell", "consumable"},
+	[262145] = {"healthCell", "consumable"},
 	[262146] = {"energyCell", "consumable"},
 	[262147] = {"keystone", "consumable"},
 	[262148] = {"mapstone", "consumable"},
