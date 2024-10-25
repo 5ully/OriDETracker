@@ -1,5 +1,18 @@
 [
     {
+        "name": "Difficulty",
+        "type": "consumable",
+        "img": "images/items/Difficulty.png",
+        "max_quantity": 4,
+        "codes": "difficulty"
+    },
+    {
+        "name": "Free",
+        "type": "consumable",
+        "codes": "free"
+    },
+
+    {
         "name": "Spirit Flame",
         "type": "toggle",
         "img": "images/items/InventorySpiritFlameIcon.png",
@@ -258,4 +271,5 @@
         "increment": 1,
         "codes": "TreesTotal"
     }
+
 ]   
