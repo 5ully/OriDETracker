@@ -3,7 +3,7 @@
         {
             "package_version": "0.0.5",
             "download_url": "https://github.com/5ully/OriDETracker/releases/download/v0.0.5/OriDE.Tracker.zip",
-            "sha256":"369D699AFFB4F5666AA8EE8150A5DEED9A33267B1F8B1EEC6B4FF7F310CEAA5B",
+            "sha256":"25119C678C748AED51682F5BC5B241D7DBA69895286016E71ABCEE6423A338C0",
             "changelog":[
                 "Lots of changes to how logic is handled, and making it easier to update later.",
                 "Changing to how locations are named both interally and in the tracker.",
