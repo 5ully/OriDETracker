@@ -2,7 +2,7 @@
     "versions": [
         {
             "package_version": "0.0.5",
-            "download_url": "https://github.com/5ully/OriDETracker/releases/download/v0.0.5/OriDE.Tracker.zip",
+            "download_url": "https://github.com/5ully/OriDETracker/releases/download/v0.0.5/OriDE_Tracker.zip",
             "sha256":"308867482D943F79B1C8D79FFC30614A2A7B1DAC9CB5CC383D64EB5F157AB843",
             "changelog":[
                 "Lots of changes to how logic is handled, and making it easier to update later.",
