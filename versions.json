@@ -11,7 +11,7 @@
                 "Preperation for being able to read slot_data from the ap world.",
                 "Difficulty can now be controlled locally(this needs work on the apworld side to be auto trackable) but has a button in the POPTracker (next to the trees)",
                 "Difficulties are: Casual -> Difficulty 0, Standard -> Difficulty 1, Expert -> Difficulty 2, Master -> Difficulty 3 and Glitched -> Difficulty 4",
-                "Logic and tracking of the v0.2.0 content for the Apworld"
+                "Logic and tracking of the v0.2.0 content for the Apworld and some changes to textures"
             ]
         },
         {
