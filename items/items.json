@@ -8,7 +8,8 @@
     },
     {
         "name": "Free",
-        "type": "consumable",
+        "type": "toggle",
+        "initial_active_state": true,
         "codes": "free"
     },
 
@@ -246,15 +247,16 @@
         "type": "consumable",
         "increment": 1,
         "decrement": 1,
+        "max_quantity": 9,
         "img": "images/items/MapStonePickup.png",
-        "codes": "mapstone"
+        "codes": "mapstone, MapStone"
     },
     {
-        "name": "Keystone",
+        "name": "KeyStone",
         "type": "consumable",
         "increment": 1,
         "decrement": 1,
-        "max_quantity": 500,
+        "max_quantity": 40,
         "img": "images/items/Keystone_map_icon.png",
         "codes": "keystone, KeyStone"
     },
@@ -263,6 +265,7 @@
         "type": "consumable",
         "increment": 1,
         "decrement": 1,
+        "max_quantity": 33,
         "codes": "abilityCell"
     },
     {
@@ -270,6 +273,124 @@
         "type": "consumable",
         "increment": 1,
         "codes": "TreesTotal"
+    },
+
+    {
+        "name": "GladesKeystone",
+        "type": "consumable",
+        "increment": 1,
+        "decrement": 1,
+        "max_quantity": 8,
+        "img": "images/items/GladesKeystone_map_icon.png",
+        "codes": "localKeystoneGlades"
+    },
+    {
+        "name": "GrottoKeystone",
+        "type": "consumable",
+        "increment": 1,
+        "decrement": 1,
+        "max_quantity": 2,
+        "img": "images/items/GrottoKeystone_map_icon.png",
+        "codes": "localKeystoneGrotto"
+    },
+    {
+        "name": "GinsoKeyStone",
+        "type": "consumable",
+        "increment": 1,
+        "decrement": 1,
+        "max_quantity": 8,
+        "img": "images/items/GinsoKeystone_map_icon.png",
+        "codes": "localKeystoneGinso"
+    },
+    {
+        "name": "SwampKeyStone",
+        "type": "consumable",
+        "increment": 1,
+        "decrement": 1,
+        "max_quantity": 2,
+        "img": "images/items/SwampKeystone_map_icon.png",
+        "codes": "localKeystoneSwamp"
+    },
+    {
+        "name": "MistyKeyStone",
+        "type": "consumable",
+        "increment": 1,
+        "decrement": 1,
+        "max_quantity": 4,
+        "img": "images/items/MistyKeystone_map_icon.png",
+        "codes": "localKeystoneMisty"
+    },
+    {
+        "name": "ForlornKeyStone",
+        "type": "consumable",
+        "increment": 1,
+        "decrement": 1,
+        "max_quantity": 4,
+        "img": "images/items/ForlornKeystone_map_icon.png",
+        "codes": "localKeystoneForlorn"
+    },
+    {
+        "name": "SorrowKeyStone",
+        "type": "consumable",
+        "increment": 1,
+        "decrement": 1,
+        "max_quantity": 12,
+        "img": "images/items/SorrowKeystone_map_icon.png",
+        "codes": "localKeystoneSorrow"
+    },
+    {
+        "name": "GladesMapStone",
+        "type": "toggle",
+        "img": "images/items/GladesMapStonePickup.png",
+        "codes": "localMapstoneGlades"
+    },
+    {
+        "name": "GroveMapStone",
+        "type": "toggle",
+        "img": "images/items/GroveMapStonePickup.png",
+        "codes": "localMapstoneGrove"
+    },
+    {
+        "name": "GrottoMapStone",
+        "type": "toggle",
+        "img": "images/items/GrottoMapStonePickup.png",
+        "codes": "localMapstoneGrotto"
+    },
+    {
+        "name": "SwampMapStone",
+        "type": "toggle",
+        "img": "images/items/SwampMapStonePickup.png",
+        "codes": "localMapstoneSwamp"
+    },
+    {
+        "name": "ValleyMapStone",
+        "type": "toggle",
+        "img": "images/items/ValleyMapStonePickup.png",
+        "codes": "localMapstoneValley"
+    },
+    {
+        "name": "ForlornMapStone",
+        "type": "toggle",
+        "img": "images/items/ForlornMapStonePickup.png",
+        "codes": "localMapstoneForlorn"
+    },
+    {
+        "name": "SorrowMapStone",
+        "type": "toggle",
+        "img": "images/items/SorrowMapStonePickup.png",
+        "codes": "localMapstoneSorrow"
+    },
+    {
+        "name": "HoruMapStone",
+        "type": "toggle",
+        "img": "images/items/HoruMapStonePickup.png",
+        "codes": "localMapstoneHoru"
+    },
+    {
+        "name": "BlackrootMapStone",
+        "type": "toggle",
+        "img": "images/items/BlackrootMapStonePickup.png",
+        "codes": "localMapstoneBlackroot"
     }
 
 ]   

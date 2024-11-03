@@ -7,7 +7,7 @@
                 "type": "itemgrid",
                 "h_alignment": "left",
                 "item_margin": "1,2",
-                "item_size": 60,
+                "item_size": 70,
                 "rows": [
                     ["grenade", "wall_jump", "charge_flame", "double_jump", "bash"],
                     ["stomp", "glide", "climb", "charge_jump", "dash"],
@@ -28,9 +28,15 @@
                 "type": "itemgrid",
                 "h_alignment": "left",
                 "item_margin": "1,2",
-                "item_size": 60,
+                "item_size": 70,
                 "rows": [
-                    ["healthCell", "energyCell", "mapstone", "keystone"]
+                    ["healthCell", "energyCell", "mapstone","keystone"],
+                    ["localKeystoneGlades", "localKeystoneGrotto", "localKeystoneGinso", "localKeystoneSwamp"],
+                    ["localKeystoneMisty", "localKeystoneForlorn", "localKeystoneSorrow"],
+                    ["localMapstoneGlades", "localMapstoneGrove", "localMapstoneGrotto", "localMapstoneSwamp", "localMapstoneValley"],
+                    ["localMapstoneForlorn", "localMapstoneSorrow", "localMapstoneHoru", "localMapstoneBlackroot"]
+                    
+
                 ]
             }
         ]
@@ -43,7 +49,7 @@
                 "type": "itemgrid",
                 "h_alignment": "left",
                 "item_margin": "1,2",
-                "item_size": 60,
+                "item_size": 80,
                 "rows": [
                     ["grenade", "wall_jump", "charge_flame", "double_jump", "bash"],
                     ["stomp", "glide", "climb", "charge_jump", "dash"],

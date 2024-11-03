@@ -29,7 +29,7 @@
                         {
                             "type": "group",
                             "header": "Collectables",
-                            "dock": "top",
+                            "dock": "bottom",
                             "content": {
                                 "type": "layout",
                                 "key": "consumables"

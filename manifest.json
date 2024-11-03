@@ -19,5 +19,5 @@
             ]
         }
     },
-    "versions_url": "https://raw.githubusercontent.com/5ully/OriDETracker/master/versions.json"
+    "versions_url": "https://raw.githubusercontent.com/5ully/OriDETracker/refs/heads/versions/versions.json"
 }

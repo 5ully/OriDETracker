@@ -64,7 +64,11 @@ function onClear(slot_data)
     if PopVersion < "0.20.1" or AutoTracker:GetConnectionState("SNES") == 3 then
         -- add snes interface functions here
     end
+    if SLOT_DATA['logic_difficulty'] then
+        Tracker:FindObjectForCode("difficulty").AcquiredCount = tonumber(SLOT_DATA["logic_difficulty"])
+    end
 end
+
 
 -- called when an item gets collected
 function onItem(index, item_id, item_name, player_number)
