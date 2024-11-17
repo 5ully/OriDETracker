@@ -2657,8 +2657,7 @@
                 "name": "MoonGrottoStompPlantAccess",
                 "access_rules": [
                     "@HollowGroveConnection/MoonGrottoStompPlantAccessConnection",
-                    "@UpperGrottoConnection/MoonGrottoStompPlantAccessConnection",
-                    "@MoonGrottoAboveTeleporterConnection/MoonGrottoStompPlantAccess"
+                    "@UpperGrottoConnection/MoonGrottoStompPlantAccessConnection"
                 ],
                 "children": [
                     {
@@ -4366,7 +4365,8 @@
             {
                 "name": "HoruR3PlantCove",
                 "access_rules": [
-                    "@@HoruR3ElevatorLeverConnection/HoruR3CutsceneTriggerConnection"
+                    "@HoruR3ElevatorLeverConnection/HoruR3PlantCoveConnection",
+                    "@HoruR3CutsceneTriggerConnection/HoruR3PlantCoveConnection"
                 ],
                 "children": [
                     {
@@ -4773,9 +4773,9 @@
                 "name": "LowerValleyPlantApproach",
                 "access_rules": [
                     "@ValleyTeleporterConnection/LowerValleyPlantApproachConnection",
-                    "@ValleyStomplessConnection/LowerValleyPlantApproach",
-                    "@ValleyMainConnection/LowerValleyPlantApproach",
-                    "@LowerValleyConnection/LowerValleyPlantApproach"
+                    "@ValleyStomplessConnection/LowerValleyPlantApproachConnection",
+                    "@ValleyMainConnection/LowerValleyPlantApproachConnection",
+                    "@LowerValleyConnection/LowerValleyPlantApproachConnection"
                 ],
                 "children": [
                     {
@@ -6712,7 +6712,6 @@
     {
         "name": "DeathGauntletDoorConnection",
         "access_rules": [
-            "@DeathGauntletDoorOpenedConnection/DeathGauntletDoorConnection",
             "@DeathGauntletConnection/DeathGauntletDoorConnection",
             "@SunkenGladesRunawayConnection/DeathGauntletDoorConnection"
         ],
@@ -7211,7 +7210,7 @@
     {
         "name": "AboveChargeFlameTreeExpWarpConnection",
         "access_rules": [
-            "@SpiritTreeRefinedConnection/AboveChargeFlameTreeExpWarpConnection"
+            "Free"
         ],
         "children": [
             {
@@ -7400,7 +7399,7 @@
     {
         "name": "BlackrootDarknessRoomConnection",
         "access_rules": [
-            "@SunkenGladesRunaway/BlackrootDarknessRoomConnection"
+            "@SunkenGladesRunawayConnection/BlackrootDarknessRoomConnection"
         ],
         "children": [
             {
@@ -8058,7 +8057,7 @@
         "name": "BashTreeDoorClosedConnection",
         "access_rules": [
             "@BashTreeConnection/BashTreeDoorClosedConnection",
-            "@GinsoMiniBossDoorConnectionConnection/BashTreeDoorClosedConnection"
+            "@GinsoMiniBossDoorConnection/BashTreeDoorClosedConnection"
         ],
         "children": [
             {
@@ -9008,7 +9007,7 @@
     {
         "name": "InnerSwampDrainBrokenConnection",
         "access_rules": [
-            "@InnerSwampAboveDrainArea/InnerSwampDrainBroken"
+            "@InnerSwampAboveDrainAreaConnection/InnerSwampDrainBrokenConnection"
         ],
         "children": [
             {
