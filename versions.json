@@ -1,6 +1,14 @@
 {
     "versions": [
         {
+            "package_version": "0.0.6",
+            "download_url": "https://github.com/5ully/OriDETracker/releases/download/v0.0.6/OriDE_Tracker.zip",
+            "sha256":"FA22B0161B26C4D942E31B407047CD56FCAF77DA6B53FBF70182C31517A2D086",
+            "changelog":[
+                "Hopefully fixes a logic issue and a poptracker connection issue"
+            ]
+        },
+        {
             "package_version": "0.0.5",
             "download_url": "https://github.com/5ully/OriDETracker/releases/download/v0.0.5/OriDE_Tracker.zip",
             "sha256":"F4A58C259C47B92F21273D7871501A18D679150120DEE354A6D4398ED21ECAC6",
