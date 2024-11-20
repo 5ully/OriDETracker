@@ -53,6 +53,16 @@ function onClear(slot_data)
                 elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
                     print(string.format("onClear: unknown item type %s for code %s", v[2], v[1]))
                 end
+            Tracker:FindObjectForCode("wall_jump_tree").Active = false
+            Tracker:FindObjectForCode("charge_flame_tree").Active = false
+            Tracker:FindObjectForCode("double_jump_tree").Active = false
+            Tracker:FindObjectForCode("bash_tree").Active = false
+            Tracker:FindObjectForCode("stomp_tree").Active = false
+            Tracker:FindObjectForCode("climb_tree").Active = false
+            Tracker:FindObjectForCode("charge_jump_tree").Active = false
+            Tracker:FindObjectForCode("grenade_tree").Active = false
+            Tracker:FindObjectForCode("dash_tree").Active = false
+            
             elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
                 print(string.format("onClear: could not find object for code %s", v[1]))
             end
