@@ -1,5 +1,5 @@
 {
-    "shared_item_grid": {
+    "scaled_item_grid": {
         "type": "array",
         "orientation": "horizontal",
         "content": [
@@ -7,7 +7,7 @@
                 "type": "itemgrid",
                 "h_alignment": "left",
                 "item_margin": "1,2",
-                "item_size": 70,
+                "item_size": 50,
                 "rows": [
                     ["grenade", "wall_jump", "charge_flame", "double_jump", "bash"],
                     ["stomp", "glide", "climb", "charge_jump", "dash"],
@@ -20,19 +20,19 @@
             }
         ]
     },
-    "consumables": {
+    "scaled_consumables": {
         "type": "array", 
         "orientation": "horizontal",
         "content": [
             {
                 "type": "itemgrid",
-                "h_alignment": "left",
+                "h_alignment": "center",
                 "item_margin": "1,2",
-                "item_size": 70,
+                "item_size": 50,
                 "rows": [
-                    ["healthCell", "energyCell", "mapstone","abilityCell"],
-                    ["keystone","localKeystoneGlades", "localKeystoneGrotto", "localKeystoneGinso"],
-                    ["localKeystoneSwamp", "localKeystoneMisty", "localKeystoneForlorn", "localKeystoneSorrow"],
+                    ["healthCell", "energyCell", "mapstone","abilityCell", "keystone"],
+                    ["localKeystoneGlades", "localKeystoneGrotto", "localKeystoneGinso", "localKeystoneSwamp"],
+                    ["localKeystoneMisty", "localKeystoneForlorn", "localKeystoneSorrow"],
                     ["localMapstoneGlades", "localMapstoneGrove", "localMapstoneGrotto", "localMapstoneSwamp", "localMapstoneValley"],
                     ["localMapstoneForlorn", "localMapstoneSorrow", "localMapstoneHoru", "localMapstoneBlackroot"]
                     
@@ -58,7 +58,7 @@
                     ["valleyTP", "forlornTP", "sorrowTP", "horuTP", "burrowsTP"],
                     ["wall_jump_tree", "charge_flame_tree", "double_jump_tree", "bash_tree", "stomp_tree"],
                     ["climb_tree", "charge_jump_tree", "grenade_tree", "dash_tree", "difficulty"],
-                    ["lifeCell", "energyCell", "abilityCell","mapstone", "keystone"]
+                    ["lifeCell", "energyCell", "mapstone", "keystone"]
                 ]
             }
         ]

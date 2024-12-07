@@ -1,4 +1,4 @@
-﻿{
+{
     "tracker_default": {
         "type": "container",
         "background": "#877373",
@@ -23,7 +23,7 @@
                             },
                             "content": {
                                 "type": "layout",
-                                "key": "shared_item_grid"
+                                "key": "scaled_item_grid"
                             }
                         },
                         {
@@ -32,7 +32,7 @@
                             "dock": "bottom",
                             "content": {
                                 "type": "layout",
-                                "key": "consumables"
+                                "key": "scaled_consumables"
                             }
                         }
                     ]

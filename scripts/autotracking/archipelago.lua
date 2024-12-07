@@ -156,9 +156,6 @@ function onLocation(location_id, location_name)
         return
     end
     local v = LOCATION_MAPPING[location_id]
-    if location_id == "WallJumpSkillTree" then
-        wall_jump_tree.Active = True
-    end
     if not v and AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(string.format("onLocation: could not find location mapping for id %s", location_id))
     end

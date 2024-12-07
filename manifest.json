@@ -1,7 +1,7 @@
 ﻿{
     "name": "OriDE AP PopTracker",
     "game_name": "Ori and the Blind Forest DE",
-    "package_version": "0.0.6",
+    "package_version": "0.0.7",
     "package_uid": "OriDE_maptracker_5ully_",
     "platform": "PC", 
     "author": "5ully_",
@@ -14,6 +14,12 @@
         },
         "var_itemsonly": {
             "display_name": "Items Only",
+            "flags": [
+                "ap"
+            ]
+        },
+        "scaled":{
+            "display_name": "Scaled Map Tracker - 125% Windows scaling",
             "flags": [
                 "ap"
             ]

@@ -1,5 +1,20 @@
 [
     {
+        "name": "LocalKeystone",
+        "type": "toggle",
+        "img": "images/items/KeyStone.png",
+        "codes": "SettingsKeystone"
+    },
+    {
+        "name": "LocalMapstone",
+        "type": "toggle",
+        "img": "images/items/MapStone.png",
+        "codes": "SettingsMapstone"
+    },
+
+
+
+    {
         "name": "Difficulty",
         "type": "consumable",
         "img": "images/items/Difficulty.png",
@@ -266,6 +281,7 @@
         "increment": 1,
         "decrement": 1,
         "max_quantity": 33,
+        "img": "images/items/AbilityPoint.png",
         "codes": "abilityCell"
     },
     {
