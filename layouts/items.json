@@ -58,7 +58,7 @@
                     ["valleyTP", "forlornTP", "sorrowTP", "horuTP", "burrowsTP"],
                     ["wall_jump_tree", "charge_flame_tree", "double_jump_tree", "bash_tree", "stomp_tree"],
                     ["climb_tree", "charge_jump_tree", "grenade_tree", "dash_tree", "difficulty"],
-                    ["lifeCell", "energyCell", "abilityCell","mapstone", "keystone"]
+                    ["lifeCell", "energyCell", "abilityCell", "mapstone", "keystone"]
                 ]
             }
         ]
