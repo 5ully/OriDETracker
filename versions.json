@@ -1,6 +1,16 @@
 {
     "versions": [
         {
+            "package_version": "0.0.7",
+            "download_url": "https://github.com/5ully/OriDETracker/releases/download/v0.0.7/OriDE_Tracker.zip",
+            "sha256":"E3AE06D1E4EA8B426AD510DCF955D8C061B4D34878B35750214FDC3FD0CDE52C",
+            "changelog":[
+                "Locations shows on more maps (less switching required hopefully)",
+                "Adding a layout that should work for windows 125% scaling",
+                "Adding a visual indicator of ability cell count."
+            ]
+        },
+        {
             "package_version": "0.0.6",
             "download_url": "https://github.com/5ully/OriDETracker/releases/download/v0.0.6/OriDE_Tracker.zip",
             "sha256":"FA22B0161B26C4D942E31B407047CD56FCAF77DA6B53FBF70182C31517A2D086",
