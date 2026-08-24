@@ -1,0 +1,65 @@
+[
+    {
+        "name": "GladesKeystone",
+        "type": "consumable",
+        "increment": 1,
+        "decrement": 1,
+        "max_quantity": 8,
+        "img": "images/items/GladesKeystone_map_icon.png",
+        "codes": "localKeystoneGlades"
+    },
+    {
+        "name": "GrottoKeystone",
+        "type": "consumable",
+        "increment": 1,
+        "decrement": 1,
+        "max_quantity": 2,
+        "img": "images/items/GrottoKeystone_map_icon.png",
+        "codes": "localKeystoneGrotto"
+    },
+    {
+        "name": "GinsoKeyStone",
+        "type": "consumable",
+        "increment": 1,
+        "decrement": 1,
+        "max_quantity": 8,
+        "img": "images/items/GinsoKeystone_map_icon.png",
+        "codes": "localKeystoneGinso"
+    },
+    {
+        "name": "SwampKeyStone",
+        "type": "consumable",
+        "increment": 1,
+        "decrement": 1,
+        "max_quantity": 2,
+        "img": "images/items/SwampKeystone_map_icon.png",
+        "codes": "localKeystoneSwamp"
+    },
+    {
+        "name": "MistyKeyStone",
+        "type": "consumable",
+        "increment": 1,
+        "decrement": 1,
+        "max_quantity": 4,
+        "img": "images/items/MistyKeystone_map_icon.png",
+        "codes": "localKeystoneMisty"
+    },
+    {
+        "name": "ForlornKeyStone",
+        "type": "consumable",
+        "increment": 1,
+        "decrement": 1,
+        "max_quantity": 4,
+        "img": "images/items/ForlornKeystone_map_icon.png",
+        "codes": "localKeystoneForlorn"
+    },
+    {
+        "name": "SorrowKeyStone",
+        "type": "consumable",
+        "increment": 1,
+        "decrement": 1,
+        "max_quantity": 12,
+        "img": "images/items/SorrowKeystone_map_icon.png",
+        "codes": "localKeystoneSorrow"
+    }
+]

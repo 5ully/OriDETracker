@@ -1,101 +1,5 @@
 [
     {
-        "name": "LocalKeystone",
-        "type": "toggle",
-        "img": "images/items/KeyStone.png",
-        "codes": "SettingsKeystone"
-    },
-    {
-        "name": "LocalMapstone",
-        "type": "toggle",
-        "img": "images/items/MapStone.png",
-        "codes": "SettingsMapstone"
-    },
-
-
-
-    {
-        "name": "Difficulty",
-        "type": "consumable",
-        "img": "images/items/Difficulty.png",
-        "max_quantity": 4,
-        "codes": "difficulty"
-    },
-    {
-        "name": "Free",
-        "type": "toggle",
-        "initial_active_state": true,
-        "codes": "free"
-    },
-
-    {
-        "name": "Spirit Flame",
-        "type": "toggle",
-        "img": "images/items/InventorySpiritFlameIcon.png",
-        "codes": "spirit_flame"
-    },
-    {
-        "name": "Wall Jump",
-		"type": "toggle",	
-		"img":"images/items/InventoryWallJumpIcon.png",
-		"codes": "wall_jump, WallJump"
-    },
-    {
-        "name": "Charge Flame",
-		"type": "toggle",
-		"img": "images/items/InventoryChargeFlameIcon.png",
-		"codes": "charge_flame, ChargeFlame"
-    },
-    {
-        "name": "Double Jump",
-        "type": "toggle",
-        "img": "images/items/InventoryDoubleJumpIcon.png",
-        "codes": "double_jump, DoubleJump"
-    },
-    {
-        "name": "Bash",
-        "type": "toggle",    
-        "img": "images/items/InventoryBashIcon.png",
-        "codes": "bash, Bash"
-    },
-    {
-        "name": "Stomp",
-        "type": "toggle", 
-        "img": "images/items/InventoryStompIcon.png",
-        "codes": "stomp, Stomp"
-    },
-    {
-        "name": "Kuro's Feather",
-        "type": "toggle",
-        "img": "images/items/InventoryGlideIcon.png",
-        "codes": "glide, Glide"
-    },
-    {
-        "name": "Climb",
-        "type": "toggle",  
-        "img": "images/items/InventoryClimbIcon.png",
-        "codes": "climb, Climb"
-    },
-    {
-        "name": "Charge Jump",
-        "type": "toggle",
-        "img": "images/items/InventoryChargeJumpIcon.png",
-        "codes": "charge_jump, ChargeJump"
-    },
-    {
-        "name": "Dash",
-        "type": "toggle",
-        "img": "images/items/InventoryDashIcon.png",
-        "codes": "dash, Dash"
-    },
-    {
-        "name": "Light Burst",
-        "type": "toggle",
-        "img": "images/items/InventoryGrenadeIcon.png",
-        "codes": "light_burst, grenade, Grenade"
-    },
-
-    {
         "name": "Water Vein",
         "type": "toggle",
         "img": "images/items/GravityElementPlaceholderA.png",
@@ -125,121 +29,7 @@
         "img": "images/items/SunstoneA.png",
         "codes": "Sunstone, HoruKey"
     },
-    {
-        "name": "Hollow Grove",
-        "type": "toggle",
-        "img": "images/items/Teleporter_map_icon.png",
-        "codes": "hollowTP, TPGrove"
-    },
-    {
-        "name": "Thornefelt Swamp",
-        "type": "toggle",
-        "img": "images/items/Teleporter_map_icon.png",
-        "codes": "swampTP, TPSwamp"
-    },
-    {
-        "name": "Moon Grotto",
-        "type": "toggle",
-        "img": "images/items/Teleporter_map_icon.png",
-        "codes": "grottoTP, TPGrotto"
-    },
-    {
-        "name": "Ginso Tree",
-        "type": "toggle",
-        "img": "images/items/Teleporter_map_icon.png",
-        "codes": "ginsoTP, TPGinso"
-    },
-    {
-        "name": "Valley of the Wind",
-        "type": "toggle",
-        "img": "images/items/Teleporter_map_icon.png",
-        "codes": "valleyTP, TPValley"
-    },
-    {
-        "name": "Forlorn Ruins",
-        "type": "toggle",
-        "img": "images/items/Teleporter_map_icon.png",
-        "codes": "forlornTP, TPForlorn"
-    },
-    {
-        "name": "Sorrow Pass",
-        "type": "toggle",
-        "img": "images/items/Teleporter_map_icon.png",
-        "codes": "sorrowTP, TPSorrow"
-    },
-    {
-        "name": "Mount Horu",
-        "type": "toggle",
-        "img": "images/items/Teleporter_map_icon.png",
-        "codes": "horuTP, TPHoru"
-    },
-    {
-        "name": "Black Root Burrows",
-        "type": "toggle",
-        "img": "images/items/Teleporter_map_icon.png",
-        "codes": "burrowsTP, TPBlackroot"
-    },
-    {
-        "name": "Sunken Glades",
-        "type": "toggle",
-        "img": "images/items/Teleporter_map_icon.png",
-        "codes": "gladesTP, TPGlades"
-    },
 
-    {
-        "name": "Bash Tree",
-        "type": "toggle",
-        "img": "images/items/Ancestor_Tree_map_icon.png",
-        "codes": "bash_tree"
-    },
-    {
-        "name": "Charge Flame Tree",
-        "type": "toggle",
-        "img": "images/items/Ancestor_Tree_map_icon.png",
-        "codes": "charge_flame_tree"
-    },
-    {
-        "name": "Charge Jump Tree",
-        "type": "toggle",
-        "img": "images/items/Ancestor_Tree_map_icon.png",
-        "codes": "charge_jump_tree"
-    },
-    {
-        "name": "Climb Tree",
-        "type": "toggle",
-        "img": "images/items/Ancestor_Tree_map_icon.png",
-        "codes": "climb_tree"
-    },
-    {
-        "name": "Dash Tree",
-        "type": "toggle",
-        "img": "images/items/Ancestor_Tree_map_icon.png",
-        "codes": "dash_tree"
-    },
-    {
-        "name": "Double Jump Tree",
-        "type": "toggle",
-        "img": "images/items/Ancestor_Tree_map_icon.png",
-        "codes": "double_jump_tree"
-    },
-    {
-        "name": "Wall Jump Tree",
-        "type": "toggle",
-        "img": "images/items/Ancestor_Tree_map_icon.png",
-        "codes": "wall_jump_tree, WallJumpSkillTree"
-    },
-    {
-        "name": "Stomp Tree",
-        "type": "toggle", 
-        "img": "images/items/Ancestor_Tree_map_icon.png",
-        "codes": "stomp_tree"
-    },
-    {
-        "name": "Grenade Tree",
-        "type": "toggle",
-        "img": "images/items/Ancestor_Tree_map_icon.png",
-        "codes": "grenade_tree"
-    },
     {
         "name": "Health Cell",
         "type": "consumable",
@@ -276,7 +66,7 @@
         "codes": "keystone, KeyStone"
     },
     {
-        "name": "Experience Level",
+        "name": "Ability Points",
         "type": "consumable",
         "increment": 1,
         "decrement": 1,
@@ -285,128 +75,23 @@
         "codes": "abilityCell"
     },
     {
-        "name": "AllTreesGoal",
+        "name": "EX15",
         "type": "consumable",
-        "increment": 1,
-        "codes": "TreesTotal"
+        "codes": "ex15"
     },
-
     {
-        "name": "GladesKeystone",
+        "name": "EX50",
         "type": "consumable",
-        "increment": 1,
-        "decrement": 1,
-        "max_quantity": 8,
-        "img": "images/items/GladesKeystone_map_icon.png",
-        "codes": "localKeystoneGlades"
+        "codes": "ex50"
     },
     {
-        "name": "GrottoKeystone",
+        "name": "EX100",
         "type": "consumable",
-        "increment": 1,
-        "decrement": 1,
-        "max_quantity": 2,
-        "img": "images/items/GrottoKeystone_map_icon.png",
-        "codes": "localKeystoneGrotto"
+        "codes": "ex100"
     },
     {
-        "name": "GinsoKeyStone",
+        "name": "EX200",
         "type": "consumable",
-        "increment": 1,
-        "decrement": 1,
-        "max_quantity": 8,
-        "img": "images/items/GinsoKeystone_map_icon.png",
-        "codes": "localKeystoneGinso"
-    },
-    {
-        "name": "SwampKeyStone",
-        "type": "consumable",
-        "increment": 1,
-        "decrement": 1,
-        "max_quantity": 2,
-        "img": "images/items/SwampKeystone_map_icon.png",
-        "codes": "localKeystoneSwamp"
-    },
-    {
-        "name": "MistyKeyStone",
-        "type": "consumable",
-        "increment": 1,
-        "decrement": 1,
-        "max_quantity": 4,
-        "img": "images/items/MistyKeystone_map_icon.png",
-        "codes": "localKeystoneMisty"
-    },
-    {
-        "name": "ForlornKeyStone",
-        "type": "consumable",
-        "increment": 1,
-        "decrement": 1,
-        "max_quantity": 4,
-        "img": "images/items/ForlornKeystone_map_icon.png",
-        "codes": "localKeystoneForlorn"
-    },
-    {
-        "name": "SorrowKeyStone",
-        "type": "consumable",
-        "increment": 1,
-        "decrement": 1,
-        "max_quantity": 12,
-        "img": "images/items/SorrowKeystone_map_icon.png",
-        "codes": "localKeystoneSorrow"
-    },
-    {
-        "name": "GladesMapStone",
-        "type": "toggle",
-        "img": "images/items/GladesMapStonePickup.png",
-        "codes": "localMapstoneGlades"
-    },
-    {
-        "name": "GroveMapStone",
-        "type": "toggle",
-        "img": "images/items/GroveMapStonePickup.png",
-        "codes": "localMapstoneGrove"
-    },
-    {
-        "name": "GrottoMapStone",
-        "type": "toggle",
-        "img": "images/items/GrottoMapStonePickup.png",
-        "codes": "localMapstoneGrotto"
-    },
-    {
-        "name": "SwampMapStone",
-        "type": "toggle",
-        "img": "images/items/SwampMapStonePickup.png",
-        "codes": "localMapstoneSwamp"
-    },
-    {
-        "name": "ValleyMapStone",
-        "type": "toggle",
-        "img": "images/items/ValleyMapStonePickup.png",
-        "codes": "localMapstoneValley"
-    },
-    {
-        "name": "ForlornMapStone",
-        "type": "toggle",
-        "img": "images/items/ForlornMapStonePickup.png",
-        "codes": "localMapstoneForlorn"
-    },
-    {
-        "name": "SorrowMapStone",
-        "type": "toggle",
-        "img": "images/items/SorrowMapStonePickup.png",
-        "codes": "localMapstoneSorrow"
-    },
-    {
-        "name": "HoruMapStone",
-        "type": "toggle",
-        "img": "images/items/HoruMapStonePickup.png",
-        "codes": "localMapstoneHoru"
-    },
-    {
-        "name": "BlackrootMapStone",
-        "type": "toggle",
-        "img": "images/items/BlackrootMapStonePickup.png",
-        "codes": "localMapstoneBlackroot"
+        "codes": "ex200"
     }
-
 ]   

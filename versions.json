@@ -1,6 +1,20 @@
 {
     "versions": [
         {
+            "package_version": "0.0.8",
+            "download_url": "https://github.com/5ully/OriDETracker/releases/download/v0.0.8/OriDE_Tracker.zip",
+            "sha256":"",
+            "changelog":[
+                "Item and Location alignement with latest AP version.",
+                "Added support for new goal modes and tracking of settings in the YAML.",
+                "Fixed multiple paths that where either parts of the logic or not connected to the logic in the correct way.",
+                "Started work on a player tracker (this is only code stuff and not working as of this update).",
+                "Plan for next update:",
+                "Adding a full map with all locations (as by request).",
+                "Getting around to adding progressional mapstones."
+            ]
+        },
+        {
             "package_version": "0.0.7",
             "download_url": "https://github.com/5ully/OriDETracker/releases/download/v0.0.7/OriDE_Tracker.zip",
             "sha256":"E3AE06D1E4EA8B426AD510DCF955D8C061B4D34878B35750214FDC3FD0CDE52C",

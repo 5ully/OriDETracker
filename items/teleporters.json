@@ -1,0 +1,62 @@
+[
+    {
+        "name": "Hollow Grove",
+        "type": "toggle",
+        "img": "images/items/Teleporter_map_icon.png",
+        "codes": "hollowTP, TPGrove"
+    },
+    {
+        "name": "Thornefelt Swamp",
+        "type": "toggle",
+        "img": "images/items/Teleporter_map_icon.png",
+        "codes": "swampTP, TPSwamp"
+    },
+    {
+        "name": "Moon Grotto",
+        "type": "toggle",
+        "img": "images/items/Teleporter_map_icon.png",
+        "codes": "grottoTP, TPGrotto"
+    },
+    {
+        "name": "Ginso Tree",
+        "type": "toggle",
+        "img": "images/items/Teleporter_map_icon.png",
+        "codes": "ginsoTP, TPGinso"
+    },
+    {
+        "name": "Valley of the Wind",
+        "type": "toggle",
+        "img": "images/items/Teleporter_map_icon.png",
+        "codes": "valleyTP, TPValley"
+    },
+    {
+        "name": "Forlorn Ruins",
+        "type": "toggle",
+        "img": "images/items/Teleporter_map_icon.png",
+        "codes": "forlornTP, TPForlorn"
+    },
+    {
+        "name": "Sorrow Pass",
+        "type": "toggle",
+        "img": "images/items/Teleporter_map_icon.png",
+        "codes": "sorrowTP, TPSorrow"
+    },
+    {
+        "name": "Mount Horu",
+        "type": "toggle",
+        "img": "images/items/Teleporter_map_icon.png",
+        "codes": "horuTP, TPHoru"
+    },
+    {
+        "name": "Black Root Burrows",
+        "type": "toggle",
+        "img": "images/items/Teleporter_map_icon.png",
+        "codes": "burrowsTP, TPBlackroot"
+    },
+    {
+        "name": "Sunken Glades",
+        "type": "toggle",
+        "img": "images/items/Teleporter_map_icon.png",
+        "codes": "gladesTP, TPGlades"
+    }
+]

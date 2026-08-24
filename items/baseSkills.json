@@ -1,0 +1,68 @@
+[
+    {
+        "name": "Spirit Flame",
+        "type": "toggle",
+        "img": "images/items/InventorySpiritFlameIcon.png",
+        "codes": "spirit_flame"
+    },
+    {
+        "name": "Wall Jump",
+        "type": "toggle",	
+        "img":"images/items/InventoryWallJumpIcon.png",
+        "codes": "wall_jump, WallJump"
+    },
+    {
+        "name": "Charge Flame",
+        "type": "toggle",
+        "img": "images/items/InventoryChargeFlameIcon.png",
+        "codes": "charge_flame, ChargeFlame"
+    },
+    {
+        "name": "Double Jump",
+        "type": "toggle",
+        "img": "images/items/InventoryDoubleJumpIcon.png",
+        "codes": "double_jump, DoubleJump"
+    },
+    {
+        "name": "Bash",
+        "type": "toggle",    
+        "img": "images/items/InventoryBashIcon.png",
+        "codes": "bash, Bash"
+    },
+    {
+        "name": "Stomp",
+        "type": "toggle", 
+        "img": "images/items/InventoryStompIcon.png",
+        "codes": "stomp, Stomp"
+    },
+    {
+        "name": "Kuro's Feather",
+        "type": "toggle",
+        "img": "images/items/InventoryGlideIcon.png",
+        "codes": "glide, Glide"
+    },
+    {
+        "name": "Climb",
+        "type": "toggle",  
+        "img": "images/items/InventoryClimbIcon.png",
+        "codes": "climb, Climb"
+    },
+    {
+        "name": "Charge Jump",
+        "type": "toggle",
+        "img": "images/items/InventoryChargeJumpIcon.png",
+        "codes": "charge_jump, ChargeJump"
+    },
+    {
+        "name": "Dash",
+        "type": "toggle",
+        "img": "images/items/InventoryDashIcon.png",
+        "codes": "dash, Dash"
+    },
+    {
+        "name": "Light Burst",
+        "type": "toggle",
+        "img": "images/items/InventoryGrenadeIcon.png",
+        "codes": "light_burst, grenade, Grenade"
+    }
+]

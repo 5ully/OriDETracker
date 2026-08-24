@@ -1,0 +1,17 @@
+{
+    "AllMapstones": {
+        "type": "array",
+        "orientation": "horizontal",
+        "content": [
+            {
+                "type": "itemgrid",
+                "h_alignment": "left",
+                "item_margin": "1,2",
+                "rows": [
+                    ["gladesMap", "groveMap", "grottoMap", "swampMap", "valleyMap"],
+                    ["forlornMap", "sorrowMap", "horuMap", "blackrootMap"]
+                ]
+            }
+        ]
+    }
+}

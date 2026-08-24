@@ -1,0 +1,18 @@
+{
+    "logicOptions": {
+        "type": "array",
+        "orientation": "horizontal",
+        "content": [
+            {
+                "type": "itemgrid",
+                "h_alignment": "left",
+                "item_size": 40,
+                "item_margin": "1,2",
+                "rows": [
+                    ["Difficulty", "lure_logic", "dBoost_logic", "dBash_logic", "gJump_logic"],
+                    ["airDash_logic", "cDash_logic", "tripleJump_logic", "cFlameBurn_logic","rekindle_logic"]
+                ]
+            }
+        ]
+    }
+}

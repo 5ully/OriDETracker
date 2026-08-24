@@ -1,18 +1,18 @@
-﻿
+
 {
-    "tracker_broadcast": {
-        "type": "array",
-        "orientation": "vertical",
+    "tracker_default": {
+        "type": "container",
         "margin": "0,0",
         "content": [
             {
-                "type": "array",
-                "orientation": "horizontal",
-                "margin": "0,0",
-                "content": [
+                "type": "tabbed",
+                "tabs": [
                     {
-                        "type": "layout",
-                        "key": "brodcast"
+                        "title": "Nibel",
+                        "content": {
+                            "type": "map",
+                            "maps": ["Nibel"]
+                        }
                     }
                 ]
             }

@@ -1,0 +1,78 @@
+[
+    {
+        "name": "LocalKeystone",
+        "type": "toggle",
+        "img": "images/items/KeyStone.png",
+        "codes": "LocalKeystone"
+    },
+    {
+        "name": "LocalMapstone",
+        "type": "toggle",
+        "img": "images/items/MapStone.png",
+        "codes": "LocalMapstone"
+    },
+    {
+        "name": "ProgressiveMapstone",
+        "type": "toggle",
+        "img": "images/items/MapStone.png",
+        "codes": "progressiveMapstone"
+    },
+    {
+        "name": "GOAL",
+        "type": "consumable",
+        "max_quantity": 4,
+        "codes": "goal"
+    },
+
+    {
+        "name": "AllTreesGoal",
+        "type": "consumable",
+        "max_quantity": 10,
+        "increment": 1,
+        "codes": "TreesTotal"
+    },
+    {
+        "name": "AllMapstonesGoal",
+        "type": "consumable",
+        "max_quantity": 9,
+        "increment": 1,
+        "codes": "MapstonesTotal"
+    },
+    {
+        "name": "WorldTour",
+        "type": "consumable",
+        "increment": 1,
+        "codes": "worldTour"
+    },
+    {
+        "name": "SunStoneFragment",
+        "type": "consumable",
+        "increment": 1,
+        "codes": "fragmentHunt"
+    },
+    {
+        "name": "OpenEscape",
+        "type": "toggle",
+        "initial_active_state": false,
+        "codes": "openEscape"
+    },
+    
+    {
+        "name": "Relic",
+        "type": "consumable",
+        "img": "images/items/Relic.png",
+        "codes": "relic"
+    },
+    {
+        "name": "Warmth Fragment",
+        "type": "consumable",
+        "img": "images/items/SunStoneShard.png",
+        "codes": "warmthFragment, SunStoneShard"
+    },
+    {
+        "name": "ClosedDungeon",
+        "type": "toggle",
+        "initial_active_state": false,
+        "codes": "closedDungeon"
+    }
+]

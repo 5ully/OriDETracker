@@ -1,4 +1,4 @@
-﻿{
+{
     "tracker_default": {
         "type": "container",
         "background": "#877373",
@@ -13,26 +13,38 @@
                     "content": [
                         {
                             "type": "group",
-                            "header": "Items",
+                            "header": "Abilities and Items",
                             "dock": "top",
-                            "header_content": {
-                                "type": "button_popup",
-                                "style": "settings",
-                                "popup_background": "#55212121",
-                                "layout": "settings_popup"
-                            },
-                            "content": {
+                            "content":{
                                 "type": "layout",
-                                "key": "shared_item_grid"
+                                "key": "scaled_item_grid"
                             }
                         },
                         {
                             "type": "group",
-                            "header": "Collectables",
-                            "dock": "bottom",
-                            "content": {
+                            "header": "Logic",
+                            "dock": "top",
+                            "content":{
                                 "type": "layout",
-                                "key": "consumables"
+                                "key": "logicOptions"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Local Logic",
+                            "dock": "top",
+                            "content":{
+                                "type": "layout",
+                                "key": "localItems"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Other Options",
+                            "dock": "top",
+                            "content":{
+                                "type": "layout",
+                                "key": "progressiveItems"
                             }
                         }
                     ]
@@ -40,13 +52,6 @@
                 {
                     "type": "tabbed",
                     "tabs": [
-                        {
-                            "title": "Nibel",
-                            "content": {
-                                "type": "map",
-                                "maps": ["Nibel"]
-                            }
-                        },
                         {
                             "title": "Sunken Glades",
                             "content": {
@@ -123,10 +128,24 @@
                                 "type": "map",
                                 "maps": ["Black Root Burrows"]
                             }
+                        },
+                        {
+                            "title": "Nibel",
+                            "content": {
+                                "type": "map",
+                                "maps": ["Nibel"]
+                            }
                         }
                     ]
                 }   
             ]
+        }
+    },
+    "tracker_broadcast":{
+        "type": "container",
+        "content": {
+            "type": "layout",
+            "key": "item_grid"
         }
     }
 

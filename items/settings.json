@@ -1,0 +1,76 @@
+[
+    {
+        "name": "Difficulty",
+        "type": "consumable",
+        "img": "images/settings/Difficulty.png",
+        "max_quantity": 4,
+        "codes": "difficulty"
+    },
+
+    {
+        "name": "Rekindle",
+        "type": "toggle",
+        "img": "images/tricks/Rekindle.png",
+        "codes": "rekindle_logic, Rekindle"
+    },
+    {
+        "name": "Lure",
+        "type": "toggle",
+        "img": "images/tricks/Lure.png",
+        "codes": "lure_logic, Lure"
+    },
+    {
+        "name": "Double Bash",
+        "type": "toggle",
+        "img": "images/tricks/doubleBash.png",
+        "codes": "dBash_logic, DoubleBash"
+    },
+    {
+        "name": "Tripple Jump",
+        "type": "toggle",
+        "img": "images/tricks/TripleJump.png",
+        "codes": "tripleJump_logic, TripleJump"
+    },
+    {
+        "name": "Charge Flame Burn",
+        "type": "toggle",
+        "img": "images/tricks/ChargeFlameBurn.png",
+        "codes": "cFlameBurn_logic, ChargeFlameBurn"
+    },
+    {
+        "name": "Air Dash",
+        "type": "toggle",
+        "img": "images/tricks/AirDash.png",
+        "codes": "airDash_logic, AirDash"
+    },
+    {
+        "name": "Charge Dash",
+        "type": "toggle",
+        "img": "images/tricks/ChargeDash.png",
+        "codes": "cDash_logic, ChargeDash, RocketJump"
+    },
+    {
+        "name": "Grenade Jump",
+        "type": "toggle",
+        "img": "images/tricks/GrenadeJump.png",
+        "codes": "gJump_logic, GrenadeJump"
+    },
+    {
+        "name": "Damage Boost",
+        "type":"toggle",
+        "img": "images/tricks/DamageBoost.png",
+        "codes": "dBoost_logic, UltraDefense"
+    },
+    {
+        "name": "BashGrenade",
+        "type": "toggle",
+        "codes": "bashGrenade_logic, BashGrenade"
+    },
+
+    {
+        "name": "Free",
+        "type": "toggle",
+        "initial_active_state": true,
+        "codes": "free"
+    }
+]

@@ -1,0 +1,56 @@
+[
+    {
+        "name": "GladesMap MapStone",
+        "type": "toggle",
+        "img": "images/items/Map_Marker_icon.png",
+        "codes": "GladesMap"
+    },
+    {
+        "name": "GroveMap MapStone",
+        "type": "toggle",
+        "img": "images/items/Map_Marker_icon.png",
+        "codes": "GroveMap"
+    },
+    {
+        "name": "GrottoMap MapStone",
+        "type": "toggle",
+        "img": "images/items/Map_Marker_icon.png",
+        "codes": "GrottoMap"
+    },
+    {
+        "name": "SwampMap MapStone",
+        "type": "toggle",
+        "img": "images/items/Map_Marker_icon.png",
+        "codes": "SwampMap"
+    },
+    {
+        "name": "ValleyMap MapStone",
+        "type": "toggle",
+        "img": "images/items/Map_Marker_icon.png",
+        "codes": "ValleyMap"
+    },
+    {
+        "name": "ForlornMap MapStone",
+        "type": "toggle",
+        "img": "images/items/Map_Marker_icon.png",
+        "codes": "ForlornMap"
+    },
+    {
+        "name": "SorrowMap MapStone",
+        "type": "toggle",
+        "img": "images/items/Map_Marker_icon.png",
+        "codes": "SorrowMap"
+    },
+    {
+        "name": "HoruMap MapStone",
+        "type": "toggle", 
+        "img": "images/items/Map_Marker_icon.png",
+        "codes": "HoruMap"
+    },
+    {
+        "name": "BlackrootMap MapStone",
+        "type": "toggle",
+        "img": "images/items/Map_Marker_icon.png",
+        "codes": "BlackrootMap"
+    }
+]

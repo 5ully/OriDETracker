@@ -1,0 +1,18 @@
+{
+    "AllTrees": {
+        "type": "array",
+        "orientation": "horizontal",
+        "content": [
+            {
+                "type": "itemgrid",
+                "h_alignment": "left",
+                "item_size": 40,
+                "item_margin": "1,2",
+                "rows": [
+                    ["wall_jump_tree", "charge_flame_tree", "double_jump_tree", "bash_tree", "stomp_tree"],
+                    ["climb_tree", "charge_jump_tree", "grenade_tree", "dash_tree", "feather_tree"]
+                ]
+            }
+        ]
+    }
+}

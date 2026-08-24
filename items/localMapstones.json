@@ -1,0 +1,56 @@
+[
+    {
+        "name": "GladesMapStone",
+        "type": "toggle",
+        "img": "images/items/GladesMapStonePickup.png",
+        "codes": "localMapstoneGlades"
+    },
+    {
+        "name": "GroveMapStone",
+        "type": "toggle",
+        "img": "images/items/GroveMapStonePickup.png",
+        "codes": "localMapstoneGrove"
+    },
+    {
+        "name": "GrottoMapStone",
+        "type": "toggle",
+        "img": "images/items/GrottoMapStonePickup.png",
+        "codes": "localMapstoneGrotto"
+    },
+    {
+        "name": "SwampMapStone",
+        "type": "toggle",
+        "img": "images/items/SwampMapStonePickup.png",
+        "codes": "localMapstoneSwamp"
+    },
+    {
+        "name": "ValleyMapStone",
+        "type": "toggle",
+        "img": "images/items/ValleyMapStonePickup.png",
+        "codes": "localMapstoneValley"
+    },
+    {
+        "name": "ForlornMapStone",
+        "type": "toggle",
+        "img": "images/items/ForlornMapStonePickup.png",
+        "codes": "localMapstoneForlorn"
+    },
+    {
+        "name": "SorrowMapStone",
+        "type": "toggle",
+        "img": "images/items/SorrowMapStonePickup.png",
+        "codes": "localMapstoneSorrow"
+    },
+    {
+        "name": "HoruMapStone",
+        "type": "toggle",
+        "img": "images/items/HoruMapStonePickup.png",
+        "codes": "localMapstoneHoru"
+    },
+    {
+        "name": "BlackrootMapStone",
+        "type": "toggle",
+        "img": "images/items/BlackrootMapStonePickup.png",
+        "codes": "localMapstoneBlackroot"
+    }
+]

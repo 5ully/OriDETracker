@@ -1,0 +1,62 @@
+[
+    {
+        "name": "Bash Tree",
+        "type": "toggle",
+        "img": "images/items/Ancestor_Tree_map_icon.png",
+        "codes": "bash_tree"
+    },
+    {
+        "name": "Charge Flame Tree",
+        "type": "toggle",
+        "img": "images/items/Ancestor_Tree_map_icon.png",
+        "codes": "charge_flame_tree"
+    },
+    {
+        "name": "Charge Jump Tree",
+        "type": "toggle",
+        "img": "images/items/Ancestor_Tree_map_icon.png",
+        "codes": "charge_jump_tree"
+    },
+    {
+        "name": "Climb Tree",
+        "type": "toggle",
+        "img": "images/items/Ancestor_Tree_map_icon.png",
+        "codes": "climb_tree"
+    },
+    {
+        "name": "Dash Tree",
+        "type": "toggle",
+        "img": "images/items/Ancestor_Tree_map_icon.png",
+        "codes": "dash_tree"
+    },
+    {
+        "name": "Double Jump Tree",
+        "type": "toggle",
+        "img": "images/items/Ancestor_Tree_map_icon.png",
+        "codes": "double_jump_tree"
+    },
+    {
+        "name": "Wall Jump Tree",
+        "type": "toggle",
+        "img": "images/items/Ancestor_Tree_map_icon.png",
+        "codes": "wall_jump_tree, WallJumpSkillTree"
+    },
+    {
+        "name": "Stomp Tree",
+        "type": "toggle", 
+        "img": "images/items/Ancestor_Tree_map_icon.png",
+        "codes": "stomp_tree"
+    },
+    {
+        "name": "Grenade Tree",
+        "type": "toggle",
+        "img": "images/items/Ancestor_Tree_map_icon.png",
+        "codes": "grenade_tree"
+    },
+    {
+        "name": "Kuro's Feather",
+        "type": "toggle",
+        "img": "images/items/kuro_feather.png",
+        "codes": "feather_tree"
+    }
+]

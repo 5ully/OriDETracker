@@ -1,0 +1,19 @@
+{
+    "localItems": {
+        "type": "array",
+        "orientation": "horizontal",
+        "content": [
+            {
+                "type": "itemgrid",
+                "h_alignment": "left",
+                "item_size": 35,
+                "item_margin": "1,2",
+                "rows": [
+                    ["localKeystoneGlades", "localKeystoneGrotto", "localKeystoneGinso", "localKeystoneSwamp", "localKeystoneMisty", "localKeystoneForlorn", "localKeystoneSorrow"],
+                    ["localMapstoneGlades", "localMapstoneGrove", "localMapstoneGrotto", "localMapstoneSwamp", "localMapstoneValley"],
+                    ["localMapstoneForlorn", "localMapstoneSorrow", "localMapstoneHoru", "localMapstoneBlackroot"]
+                ]
+            }
+        ]
+    }
+}

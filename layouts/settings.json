@@ -1,21 +1,213 @@
 {
-	"settings_popup": {
+	"settings_popup":
+	{
 		"type": "array",
-		"orientation": "horizontal",
-		"margin": "0,0",
+		"orientation": "vertical",
 		"content": [
 			{
 				"type": "array",
-				"orientation": "horizontal",
-				"margin": "0,25",
 				"content": [
 					{
-						"type": "itemgrid",
-						"item_margin": "2,-25",
-						"h_alignment": "left",
-						"item_size": "400,95",
-						"rows": [
-							[ "SettingsKeystone", "SettingsMapstone" ]
+						"type": "group",
+						"header": "Difficulty",
+						"header_background": "#3e4b57",
+						"content":[
+							{
+								"type": "item",
+								"item": "difficulty"
+							}
+						]
+					}
+				]
+			},
+			{
+				"type": "array",
+				"content": [
+					{
+						"type": "group",
+						"header": "Goal",
+						"header_background": "#3e4b57",
+						"content":[
+							{
+								"type": "item",
+								"item": "goalMode"
+							}
+						]
+					}
+				]
+			},
+			{
+				"type": "array",
+				"content": [
+					{
+						"type": "group",
+						"header": "Keystone Logic",
+						"header_background": "#3e4b57",
+						"content":[
+							{
+								"type": "item",
+								"item": "keystone_logic"
+							}
+						]
+					}
+				]
+			},
+			{
+				"type": "array",
+				"content": [
+					{
+						"type": "group",
+						"header": "Mapstone Logic",
+						"header_background": "#3e4b57",
+						"content":[
+							{
+								"type": "item",
+								"item": "mapstoneLogic"
+							}
+						]
+					}
+				]
+			},
+			{
+				"type": "array",
+				"content": [
+					{
+						"type": "group",
+						"header": "Lure",
+						"header_background": "#3e4b57",
+						"content":[
+							{
+								"type": "item",
+								"item": "lure_logic"
+							}
+						]
+					}
+				]
+			},
+			{
+				"type": "array",
+				"content": [
+					{
+						"type": "group",
+						"header": "Damage Boost",
+						"header_background": "#3e4b57",
+						"content":[
+							{
+								"type": "item",
+								"item": "dBoost_logic"
+							}
+						]
+					}
+				]
+			},
+			{
+				"type": "array",
+				"content": [
+					{
+						"type": "group",
+						"header": "Double Bash",
+						"header_background": "#3e4b57",
+						"content":[
+							{
+								"type": "item",
+								"item": "dBash_logic"
+							}
+						]
+					}
+				]
+			},
+			{
+				"type": "array",
+				"content": [
+					{
+						"type": "group",
+						"header": "Grenade Jump",
+						"header_background": "#3e4b57",
+						"content":[
+							{
+								"type": "item",
+								"item": "gJump_logic"
+							}
+						]
+					}
+				]
+			},
+			{
+				"type": "array",
+				"content": [
+					{
+						"type": "group",
+						"header": "Air Dash",
+						"header_background": "#3e4b57",
+						"content":[
+							{
+								"type": "item",
+								"item": "airDash_logic"
+							}
+						]
+					}
+				]
+			},
+			{
+				"type": "array",
+				"content": [
+					{
+						"type": "group",
+						"header": "Charge Dash",
+						"header_background": "#3e4b57",
+						"content":[
+							{
+								"type": "item",
+								"item": "cDash_logic"
+							}
+						]
+					}
+				]
+			},
+			{
+				"type": "array",
+				"content": [
+					{
+						"type": "group",
+						"header": "Tripple Jump",
+						"header_background": "#3e4b57",
+						"content":[
+							{
+								"type": "item",
+								"item": "tripleJump_logic"
+							}
+						]
+					}
+				]
+			},
+			{
+				"type": "array",
+				"content": [
+					{
+						"type": "group",
+						"header": "Charge Flame Burn",
+						"header_background": "#3e4b57",
+						"content":[
+							{
+								"type": "item",
+								"item": "cFlameBurn_logic"
+							}
+						]
+					}
+				]
+			},
+			{
+				"type": "array",
+				"content": [
+					{
+						"type": "group",
+						"header": "Rekindle",
+						"header_background": "#3e4b57",
+						"content":[
+							{
+								"type": "item",
+								"item": "Rekindle_logic"
+							}
 						]
 					}
 				]

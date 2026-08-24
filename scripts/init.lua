@@ -24,25 +24,42 @@ ScriptHost:LoadScript("scripts/custom_items/progressiveTogglePlus.lua")
 ScriptHost:LoadScript("scripts/custom_items/progressiveTogglePlusWrapper.lua")
 
 -- Items
+Tracker:AddItems("items/baseSkills.json")
+Tracker:AddItems("items/extraItems.json")
+Tracker:AddItems("items/goalMapstones.json")
+Tracker:AddItems("items/goalTrees.json")
 Tracker:AddItems("items/items.json")
+Tracker:AddItems("items/localKeystones.json")
+Tracker:AddItems("items/localMapstones.json")
+Tracker:AddItems("items/settings.json")
+Tracker:AddItems("items/teleporters.json")
 
-if not IS_ITEMS_ONLY then -- <--- use variant info to optimize loading
-    -- Maps
-    Tracker:AddMaps("maps/maps.json")    
-    -- Locations
-    Tracker:AddLocations("locations/locations.json")
-end
+
+-- Maps
+Tracker:AddMaps("maps/maps.json")
+
+--Locations
+Tracker:AddLocations("locations/locations.json")
+Tracker:AddLocations("locations/connections.json")
+
 
 -- Layout
+Tracker:AddLayouts("all_trees.json")
+Tracker:AddLayouts("altGoals.json")
 Tracker:AddLayouts("layouts/items.json")
-Tracker:AddLayouts("layouts/tracker.json")
-Tracker:AddLayouts("layouts/broadcast.json")
+Tracker:AddLayouts("layouts/localLogic.json")
+Tracker:AddLayouts("layouts/logicOptions.json")
+Tracker:AddLayouts("layouts/progressiveMapstone.json")
+Tracker:AddLayouts("layouts/settings.json")
 
-Tracker:AddLayouts("scaled/items.json")
-Tracker:AddLayouts("scaled/tracker.json")
-Tracker:AddLayouts("scaled/broadcast.json")
+Tracker:AddLayouts("layouts/all_trees.json")
+Tracker:AddLayouts("layouts/mapstoneGoal.json")
+Tracker:AddLayouts("layouts/relicGoal.json")
+Tracker:AddLayouts("layouts/warmtGoal.json")
 
+ScriptHost:LoadScript("scripts/watches.lua")
 
+updateGoalLayout()
 -- AutoTracking for Poptracker
 if PopVersion and PopVersion >= "0.18.0" then
     ScriptHost:LoadScript("scripts/autotracking.lua")
