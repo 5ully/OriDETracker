@@ -2,7 +2,7 @@
     "versions": [
         {
             "package_version": "0.1.0",
-            "download_url": "https://github.com/5ully/OriDETracker/releases/download/v0.1.0/OriDE_Tracker.zip",
+            "download_url": "https://github.com/5ully/OriDETracker/releases/download/v0.1.0/OriDE_Tracker",
             "sha256":"0281556191cdd4df2d4f6dfc93e3296ac8d6fa413cd96f1df5a154ce09b98c86",
             "changelog":[
                 "Fixing All the broken ID's",
