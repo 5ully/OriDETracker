@@ -3,7 +3,7 @@
         {
             "package_version": "1.0.1",
             "download_url": "https://github.com/5ully/OriDETracker/releases/download/v0.1.1/OriDE_Tracker.zip",
-            "sha256":"",
+            "sha256":"50ae5272183cac56e0a340657a17166222f2188170bddd6c0ebc6c65d9b18d7f",
             "changelog":[
                 "Fixing the rest of the broken ID's",
                 "Fixing the broken goal layouts, combined into one until I have figured out a better way to represent goals selected."
