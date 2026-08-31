@@ -1,12 +1,11 @@
 {
     "versions": [
-        {
             "package_version": "0.1.1",
+         {
+            "package_version": "1.0.1",
             "download_url": "https://github.com/5ully/OriDETracker/releases/download/v0.1.1/OriDE_Tracker.zip",
             "sha256":"929450ca699f25cfb057e798b1568dc891faeb25d6ccaf8c1302f5441884a152",
             "changelog":[
-                "Fixing the rest of the broken ID's",
-                "Fixing the broken goal layouts, combined into one until I have figured out a better way to represent goals selected."
             ]
         },
         {
