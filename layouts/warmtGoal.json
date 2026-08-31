@@ -1,5 +1,5 @@
 {
-    "SunStoneFragment": {
+    "Misc Goal": {
         "type": "array",
         "orientation": "horizontal",
         "content": [
@@ -8,7 +8,7 @@
                 "h_alignment": "left",
                 "item_margin": "1,2",
                 "rows": [
-                    ["SunStoneShard"]
+                    ["SunStoneShard", "Relic"]
                 ]
             }
         ]

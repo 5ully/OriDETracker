@@ -56,6 +56,7 @@ Tracker:AddLayouts("layouts/all_trees.json")
 Tracker:AddLayouts("layouts/mapstoneGoal.json")
 Tracker:AddLayouts("layouts/relicGoal.json")
 Tracker:AddLayouts("layouts/warmtGoal.json")
+Tracker:AddLayouts("layouts/allGoals.json")
 
 ScriptHost:LoadScript("scripts/watches.lua")
 

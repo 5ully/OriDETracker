@@ -1,6 +1,24 @@
 {
     "versions": [
         {
+            "package_version": "0.1.1",
+            "download_url": "https://github.com/5ully/OriDETracker/releases/download/v0.1.1/OriDE_Tracker.zip",
+            "sha256":"929450ca699f25cfb057e798b1568dc891faeb25d6ccaf8c1302f5441884a152",
+            "changelog":[
+                "Fixing the rest of the broken ID's",
+                "Fixing the broken goal layouts, combined into one until I have figured out a better way to represent goals selected."
+            ]
+        },
+        {
+            "package_version": "0.1.0",
+            "download_url": "https://github.com/5ully/OriDETracker/releases/download/v0.1.0/OriDE_Tracker.zip",
+            "sha256":"0281556191cdd4df2d4f6dfc93e3296ac8d6fa413cd96f1df5a154ce09b98c86",
+            "changelog":[
+                "Fixing All the broken ID's",
+                "Adding the new location, and fixing the difference in expected Ability Cells for ability's like ultra defence etc"
+            ]
+        },
+        {
             "package_version": "0.0.8",
             "download_url": "https://github.com/5ully/OriDETracker/releases/download/v0.0.8/OriDE_Tracker.zip",
             "sha256":"",

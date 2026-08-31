@@ -9,10 +9,11 @@ function updateGoalLayout()
   elseif AUTOTRACKER_ENABLE_GOAL_TRACKING == 4 then
     Tracker:AddLayouts("layouts/tracker.json")
   else
-    Tracker:AddLayouts("layouts/trackerTrees.json")
+   -- Tracker:AddLayouts("layouts/trackerTrees.json")
    -- Tracker:AddLayouts("layouts/trackerWarmth.json")
    -- Tracker:AddLayouts("layouts/trackerMapstones.json")
    -- Tracker:AddLayouts("layouts/broadcast.json")
+      Tracker:AddLayouts("layouts/allGoals.json")
   end
 
 end

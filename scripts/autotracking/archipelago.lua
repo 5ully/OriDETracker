@@ -110,7 +110,12 @@ function onClear(slot_data)
             elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
                 print(string.format("onClear: could not find object for code %s", v[1]))
             end
+        
         end
+        SLOT_DATA = slot_data
+        CUR_INDEX = -1
+
+        updateGoalLayout()
     end
     LOCAL_ITEMS = {}
     GLOBAL_ITEMS = {}
